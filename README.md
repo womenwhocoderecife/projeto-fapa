@@ -9,7 +9,7 @@ Projeto de desenvolvimento de um site para a Ong Faça Algo por Alguém (Fapa), 
 
 - [Myllena Alves](https://github.com/myllenaalves) (Mentora de Desenvolvimento)
 - [Andrêza Leite](https://github.com/andrezaleite) (Mentora de Gerenciamento de Projetos)
-- [Lívia Maranhão](https://www.behance.net/liviafmaranhao)| (Mentora de Design)
+- [Lívia Maranhão](https://www.behance.net/liviafmaranhao) (Mentora de Design)
 
 ### Time
 
@@ -21,6 +21,6 @@ Projeto de desenvolvimento de um site para a Ong Faça Algo por Alguém (Fapa), 
 - [Karol Galvão](https://github.com/karolgalvao)
 - [Luana Letícia](https://github.com/Luana-Leticia)
 - [Raisa Barata](https://github.com/RaissaMariaB)
-- [Rita Anne]()
+- [Rita Anne](https://github.com/ritaanne)
 
 
