@@ -6,7 +6,6 @@
 
 ### Mentoras
 
-|![myllena-alves](https://github.com/jussararodrigues/4-periodo/blob/master/pages/team/myllena-alves.png) |![andreza-leite]()|![livia-maranhao]()| 
 |:---------------------:|:------------------:|:----------------:|
 |[Myllena Alves](https://github.com/myllenaalves)|[Andrêza Leite](https://github.com/andrezaleite)|[Lívia Maranhão](https://www.behance.net/liviafmaranhao)|
 | Mentora de Desenvolvimento  | Mentora de gerenciamento de projetos | Mentora de design |
