@@ -1,10 +1,13 @@
 import React from 'react';
 import './App.css';
+import IlzaKarol from '../IlzaKarol/IlzaKarol';
+
 
 function App() {
   return (
     <div className="App">
       <header className="App-header">
+        <h1>Teste</h1>
         <p>
           Edit <code>src/App.js</code> and save to reload.
         </p>
@@ -16,6 +19,7 @@ function App() {
         >
           Learn React
         </a>
+        <IlzaKarol/>
       </header>
     </div>
   );
