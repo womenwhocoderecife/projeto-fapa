@@ -1,5 +1,6 @@
 import React from 'react';
 import './App.css';
+import LuanaCamila from '../LuanaCamila/LuanaCamila'
 
 function App() {
   return (
@@ -16,6 +17,7 @@ function App() {
         >
           Learn React
         </a>
+        <LuanaCamila></LuanaCamila>
       </header>
     </div>
   );
