@@ -1,0 +1,29 @@
+.Footer .container{
+   
+    z-index: 3;
+    margin-top:6rem;
+    padding-bottom: 2rem;
+
+}
+
+.Footer .vertical-align {
+    display: flex;
+    align-items: center;
+}
+.Footer span{
+    font-family: 'Nunito', sans-serif;
+    color:#1B1B1B;
+    font-size: 1rem;
+    margin-left: 0.5rem;
+}
+.Footer .icon{
+    margin-right: 1rem;
+    width: 1rem;
+}
+
+@media screen and (max-width: 991px) {
+    .Footer .row{
+        flex-direction: inherit;
+    }
+  
+}

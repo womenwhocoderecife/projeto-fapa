@@ -1,16 +1,23 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
-import App from './pages/App/App';
+import Home from './pages/Home/Home';
+import NossaHistoria from './pages/NossaHistoria/NossaHistoria';
+import EmConstrucao from './pages/EmConstrucao/EmConstrucao';
 import * as serviceWorker from './serviceWorker';
-import Nome from './StructReact';
+import 'bootstrap/dist/css/bootstrap.min.css';
 
 import { BrowserRouter, Switch, Route } from "react-router-dom";
+
 ReactDOM.render(
+  
   <BrowserRouter>
     <Switch>
-      <Route path="/" exact={true} component={App} />
-      <Route path="/sobre" component={Nome} />
+      <Route path="/" exact={true} component={Home} />
+      <Route path="/sobre-nos" component={NossaHistoria} />
+      <Route path="/nossas-acoes" component={EmConstrucao} />
+      <Route path="/junte-se" component={EmConstrucao} />
+
     </Switch>
   </BrowserRouter>,
   document.getElementById("root")
