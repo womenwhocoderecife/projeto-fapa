@@ -8,6 +8,7 @@ import * as serviceWorker from './serviceWorker';
 import 'bootstrap/dist/css/bootstrap.min.css';
 
 import { BrowserRouter, Switch, Route } from "react-router-dom";
+import Footer from './componentes/Footer/Footer';
 
 ReactDOM.render(
   
@@ -17,8 +18,9 @@ ReactDOM.render(
       <Route path="/sobre-nos" component={NossaHistoria} />
       <Route path="/nossas-acoes" component={EmConstrucao} />
       <Route path="/junte-se" component={EmConstrucao} />
-
+      
     </Switch>
+    <Footer/>
   </BrowserRouter>,
   document.getElementById("root")
 );

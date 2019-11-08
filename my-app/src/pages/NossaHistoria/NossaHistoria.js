@@ -1,7 +1,7 @@
 import React from 'react';
 import './NossaHistoria.css';
 import NavBar from '../../componentes/NavBar';
-import Footer from '../../componentes/Footer/Footer';
+
 
 function NossaHistoria() {
   return (
@@ -31,7 +31,7 @@ function NossaHistoria() {
             
             
         </div>
-        <Footer/>
+    
         
          
         </div>

@@ -4,15 +4,17 @@ import Nav from "react-bootstrap/Nav";
 import "./NavBar.css";
 import logo from "../../assets/logo-provisoria.png";
 
+import Button from 'react-bootstrap/Button'
 function NavBar() {
   return (
     <Navbar className="nav-container gray-light-color p-0"  expand="lg">
     <div className="nav-container-fluid white-color" >
+    <Navbar.Toggle aria-controls="basic-navbar-nav" />
     <Navbar.Brand href="/">
         <img src={logo} className="App-logo" alt="logo" />
     </Navbar.Brand>
   
-    <Navbar.Toggle aria-controls="basic-navbar-nav" />
+    
     <Navbar.Collapse id="basic-navbar-nav">
       <Nav className="mr-auto">
        <Nav.Link className = "nav-bar-item active" href="/sobre-nos">Sobre Nós</Nav.Link>
@@ -20,7 +22,7 @@ function NavBar() {
        <Nav.Link className = "nav-bar-item" href="/junte-se">Junte-se</Nav.Link>
      </Nav>
    </Navbar.Collapse>
-
+   <Button variant="outline-light" className = "colaborar-button">Colabore Conosco</Button>
     </div>
   
 </Navbar>
