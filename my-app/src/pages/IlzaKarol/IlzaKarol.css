@@ -1,0 +1,50 @@
+@import url('https://fonts.googleapis.com/css?family=Leckerli+One&display=swap');
+
+.container-alcance{
+    background-color: #cadbb5;
+}
+.container-numero{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+}
+.div-numero{
+    margin: 50px;
+    
+}
+.numero{
+    font-size: 64px;
+    color: orange;
+    font-family: 'Leckerli One', cursive;
+}
+h2{
+    font-size: 64px;
+}
+.sub-num{
+    color: black;
+    font-size: 14px;
+}
+.acoes{
+    padding: 5px 100px 5px;
+}
+.carousel{
+    margin: 0% 10% 5%;
+}
+
+.d-block {
+  align-items: center;
+}
+.conheca{
+    display: flex;
+    font-size: 14px;
+    border: 2px solid #fca80b;
+    border-radius: 12px;
+    color: #fca80b;
+    
+    justify-content: center; 
+    margin: 0px 550px 0px;
+    padding: 10px;
+    
+}
+   

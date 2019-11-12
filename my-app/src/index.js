@@ -6,7 +6,6 @@ import NossaHistoria from './pages/NossaHistoria/NossaHistoria';
 import EmConstrucao from './pages/EmConstrucao/EmConstrucao';
 import * as serviceWorker from './serviceWorker';
 import 'bootstrap/dist/css/bootstrap.min.css';
-
 import { BrowserRouter, Switch, Route } from "react-router-dom";
 import Footer from './componentes/Footer/Footer';
 
