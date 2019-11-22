@@ -1,0 +1,109 @@
+.Nav-brand {
+  width: 4rem;
+}
+.App-logo {
+  width: 8rem;
+  height: 4rem;
+  margin: 0 1rem;
+}
+
+.icon {
+  color: gray;
+  margin: 1rem 0.5rem 1rem;
+}
+.icon:hover {
+  color: #007bff;
+}
+.navbar-toggler:focus {
+  outline: 0;
+}
+
+.line {
+  border-left: 0.1rem solid lightgrey;
+  height: 50%;
+  margin: 0 -0.5rem 0;
+  position: absolute;
+}
+.nav-bar {
+  margin-right: 1.5rem;
+}
+
+.white-color{
+  background-color: white;
+}
+.gray-light-color{
+  background-color: #F5F6F7;
+}
+.row {
+  display: flex;
+}
+
+.colaborar-button{
+  margin: 0 1rem;
+  height: 4rem;
+  color:#FF822E !important;  
+  font-family: 'Nunito', sans-serif !important; ;
+  border-radius:2rem !important; 
+  border: 1px solid #FF822E !important
+
+}
+
+.colaborar-button:hover{
+  background-color: #FF822E !important;
+  color: white !important;
+}
+@media screen and (max-width: 991px) {
+  .line {
+    display: none;
+  }
+  .row {
+    justify-content: center;
+  }
+  .nav-container-fluid {
+    width: 50% !important;
+    display: contents !important;
+  }
+  .navbar-collapse{
+    background-color: white !important;
+    border-bottom: 1px solid lightgray;
+  }
+}
+
+@media screen and (max-width: 1119px) and (min-width: 992px) {
+  .nav-container-fluid {
+    width: 100% !important;
+  }
+}
+.navbar {
+  justify-content: center !important;
+}
+.nav-container-fluid {
+  width: 75%;
+  justify-content: center;
+  display: flex;
+  height: 100%;
+  align-items: center;
+  padding: 2rem 5.375rem;
+  
+}
+.nav-container {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 3;
+  padding: 0;
+  height: 6rem;
+ 
+}
+.nav-bar-item{
+  font-size: 1rem;
+  font-family: 'Nunito', sans-serif;
+  color:#1B1B1B;
+  margin: 0 2rem;
+}
+.nav-bar-item:hover{
+  font-weight: 700;
+}
+.active{
+  font-weight: 700;
+}
