@@ -4,7 +4,7 @@ import React from 'react';
 function Nome() {
   return (
     <div className="Nome">
-        <h3>TESTE</h3>
+        <h3>TESTE STRUCT REACT</h3>
     </div>
   );
 }

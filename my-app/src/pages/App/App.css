@@ -20,3 +20,13 @@
 .App-link {
   color: #09d3ac;
 }
+.container-fluid {
+  background-color: red;
+  display: flex;
+  justify-content: center;
+}
+
+.container {
+  background-color: yellow;
+  width: 80%;
+}
