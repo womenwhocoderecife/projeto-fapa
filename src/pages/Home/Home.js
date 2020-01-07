@@ -1,7 +1,6 @@
 import React from 'react';
 import './Home.css';
-import LuanaCamila from '../LuanaCamila/LuanaCamila'
-import IlzaKarol from '../IlzaKarol/IlzaKarol';
+import AcoesPessoas from '../AcoesPessoas/AcoesPessoas';
 import MissaoVisao from '../MissaoVisao/MissaoVisao';
 
 
@@ -10,9 +9,7 @@ function Home() {
     <div className="Home">
       <header className="Home-header">
       <MissaoVisao></MissaoVisao>
-        <LuanaCamila></LuanaCamila>
-        <IlzaKarol/>
-        
+      <AcoesPessoas/>
       </header>
     </div>
   );
