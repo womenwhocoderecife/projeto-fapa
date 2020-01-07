@@ -1,15 +1,15 @@
 import React from 'react';
 import './Home.css';
-import LuanaCamila from '../LuanaCamila/LuanaCamila'
-import IlzaKarol from '../IlzaKarol/IlzaKarol';
+import AcoesPessoas from '../AcoesPessoas/AcoesPessoas';
+import MissaoVisao from '../MissaoVisao/MissaoVisao';
 
 
 function Home() {
   return (
     <div className="Home">
       <header className="Home-header">
-        <LuanaCamila></LuanaCamila>
-        <IlzaKarol/>
+      <MissaoVisao></MissaoVisao>
+      <AcoesPessoas/>
       </header>
     </div>
   );

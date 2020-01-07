@@ -1,12 +1,12 @@
 import React from 'react';
-import './IlzaKarol.css';
+import './AcoesPessoas.css';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import Carousel from 'react-bootstrap/Carousel'
 import faparoda from '../../assets/fapa-roda.jpg';
 import idoso from '../../assets/fapa-idoso.jpg';
 import lindu from '../../assets/fapa-lindu.jpg';
 
-function IlzaKarol() {
+function AcoesPessoas() {
   return (
 
     <div className="container-alcance">
@@ -38,7 +38,7 @@ function IlzaKarol() {
       alt="Third slide"
     />
 
-    
+
   </Carousel.Item>
   <Carousel.Item>
     <img
@@ -47,10 +47,10 @@ function IlzaKarol() {
       alt="Third slide"
     />
   </Carousel.Item>
-</Carousel>     
+</Carousel>
         <p class="conheca">Conheça nossas ações</p>
     </div>
   );
 }
 
-export default IlzaKarol;
+export default AcoesPessoas;

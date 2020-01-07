@@ -5,7 +5,7 @@ import NavBar from '../../componentes/NavBar';
 
 function NossaHistoria() {
   return (
- 
+
     <div className="NossaHistoria">
            <NavBar class = "w-100"></NavBar>
         <div className = "container-fluid p-0">
@@ -28,14 +28,14 @@ function NossaHistoria() {
                    <div className = "image"></div>
             </div>
             </div>
-            
-            
+
+
         </div>
-    
-        
-         
+
+
+
         </div>
-       
+
     </div>
   );
 }
