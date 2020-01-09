@@ -1,32 +1,50 @@
-.NossaHistoria .container{
+.NossasAcoes .container{
     width: 100%;
     height: 100%;
     margin-top: 0rem;
     padding: 0 1.875rem;
     background-color: #F5F6F7;
 }
-.NossaHistoria .nav-bar-space{
+.NossasAcoes .nav-bar-space{
     height: 6rem;
     border: solid 1px black
 }
-.NossaHistoria .container-fluid{
+.NossasAcoes .container-fluid{
     background-color: #F5F6F7;
 }
-.NossaHistoria .titulo{
+.NossasAcoes .titulo{
     font-family: 'Nunito', sans-serif;
     font-weight: 700;
     color:#1B1B1B;
     font-size: 4.5625rem;
     margin: 4.125rem 0 4rem;
 }
-.NossaHistoria .texto{
+.NossasAcoes .titulo-icon{
+    font-family: 'Nunito', sans-serif;
+    font-weight: 600;
+    color:#1B1B1B;
+    font-size: 4.5625rem;
+    margin: 4.125rem 0 4rem;
+}
+
+
+.NossasAcoes .subtitulo{
+    font-family: 'Nunito', sans-serif;
+    font-weight: 400;
+    color:#1B1B1B;
+    font-size: 1.5rem;
+    margin: 2.5rem 1rem;
+    width: 100%;
+    text-align: center;
+}
+.NossasAcoes .texto{
     font-family: 'Nunito', sans-serif;
     color:#1B1B1B;
     font-size:1rem;
     text-align: left;
     line-height: 1.875rem;
 }
-.NossaHistoria .square-green {
+.NossasAcoes .square-green {
     width: 40rem;
     max-width: 90%;
     height: 40rem;
@@ -36,9 +54,9 @@
     right: 0;
 }
 
-.NossaHistoria .image {
-   
+.NossasAcoes .image {
     max-width: 100%;
+   
     height: 40rem;
     object-fit: cover;
     position: relative;
@@ -46,21 +64,38 @@
     z-index: 2;
     background-color: black;
 }
-.NossaHistoria .view-image{
+.NossasAcoes .acoes{
+    margin: 0.5rem 1rem;
+    display: flex;
+    width: 28rem;
+    direction: column;
+    flex-direction: column;
+    align-items: center;
+}
+.NossasAcoes .icon {
+   
+    width: 4.25rem;
+    height: 4.25rem;
+    object-fit: cover;
+    background-color: black;
+}
+.NossasAcoes .view-image{
     padding: 1rem 0 1rem 1.875rem;
     margin-bottom: 2rem ;
 }
-
+.NossasAcoes .background-yellow{
+    background-color: #FFDA00;
+}
 
 @media screen and (max-width: 771px) {
-    .NossaHistoria .image{
+    .NossasAcoes .image{
         height: 25rem !important;
         margin-left: 3.25rem !important;;
-    }.NossaHistoria .square-green{
+    }.NossasAcoes .square-green{
         height: 25rem !important;;
         margin-top: 3.25rem !important;;
     }
-    .NossaHistoria .titulo{
+    .NossasAcoes .titulo{
         margin: 4.125rem 0 2rem;
         font-size: 3.5625rem;
     }

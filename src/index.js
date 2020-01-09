@@ -3,6 +3,7 @@ import ReactDOM from "react-dom";
 import "./index.css";
 import Home from "./pages/Home/Home";
 import NossaHistoria from "./pages/NossaHistoria/NossaHistoria";
+import NossasAcoes from "./pages/NossasAcoes/NossasAcoes";
 import EmConstrucao from "./pages/EmConstrucao/EmConstrucao";
 import * as serviceWorker from "./serviceWorker";
 import "bootstrap/dist/css/bootstrap.min.css";
@@ -14,7 +15,7 @@ ReactDOM.render(
     <Switch>
       <Route path="/" exact={true} component={Home} />
       <Route path="/sobre-nos" component={NossaHistoria} />
-      <Route path="/nossas-acoes" component={EmConstrucao} />
+      <Route path="/nossas-acoes" component={NossasAcoes} />
       <Route path="/junte-se" component={EmConstrucao} />
     </Switch>
     <Footer />

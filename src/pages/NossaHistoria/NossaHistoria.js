@@ -8,6 +8,7 @@ function NossaHistoria() {
 
     <div className="NossaHistoria">
            <NavBar class = "w-100"></NavBar>
+           <div className = "row nav-bar-space" ></div>
         <div className = "container-fluid p-0">
         <div className ="container">
             <div className = "row">
