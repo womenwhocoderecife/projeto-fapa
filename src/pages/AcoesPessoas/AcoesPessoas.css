@@ -1,7 +1,7 @@
-@import url('https://fonts.googleapis.com/css?family=Leckerli+One&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Knewave|Nunito:600&display=swap');
 
 .container-alcance{
-    background-color: #cadbb5;
+    background-color: rgba(169,216,37,0.1);
 }
 .container-numero{
     width: 100%;
@@ -14,16 +14,18 @@
     
 }
 .numero{
-    font-size: 64px;
-    color: orange;
-    font-family: 'Leckerli One', cursive;
+    font-size: 100px;
+    color: #FF822E;
+    font-family: 'Knewave', cursive;
 }
 h2{
     font-size: 64px;
 }
 .sub-num{
-    color: black;
-    font-size: 14px;
+    color: #1B1B1B;
+    font-size: 24px;
+    font-family: 'Nunito', sans-serif;
+
 }
 .acoes{
     padding: 5px 100px 5px;
