@@ -2,11 +2,13 @@
 
 .container-alcance{
     background-color: rgba(169,216,37,0.1);
+    height: 1101px;
+    width: 100%;
 }
 .container-numero{
     width: 100%;
     display: flex;
-    justify-content: center;
+    justify-content: space-around;
     flex-direction: row;
 }
 .div-numero{
@@ -17,6 +19,7 @@
     font-size: 100px;
     color: #FF822E;
     font-family: 'Knewave', cursive;
+    text-align: center;
 }
 h2{
     font-size: 64px;
@@ -26,27 +29,25 @@ h2{
     font-size: 24px;
     font-family: 'Nunito', sans-serif;
 
+
 }
 .acoes{
-    padding: 5px 100px 5px;
+    padding: 62px 150px 62px;
 }
 .carousel{
     margin: 0% 10% 5%;
+    
 }
 
 .d-block {
   align-items: center;
+  height: 633px;
+  width: 1139px;
 }
-.conheca{
+.botao{
     display: flex;
-    font-size: 14px;
-    border: 2px solid #fca80b;
-    border-radius: 12px;
-    color: #fca80b;
-    
-    justify-content: center; 
-    margin: 0px 550px 0px;
-    padding: 10px;
-    
+    justify-content: center;
+    width: 100%;
+    margin-bottom: 25px;
+    margin-top: 25px;
 }
-   

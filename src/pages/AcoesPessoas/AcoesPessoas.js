@@ -5,6 +5,7 @@ import Carousel from 'react-bootstrap/Carousel'
 import faparoda from '../../assets/fapa-roda.jpg';
 import idoso from '../../assets/fapa-idoso.jpg';
 import lindu from '../../assets/fapa-lindu.jpg';
+import Button from 'react-bootstrap/Button'
 
 function AcoesPessoas() {
   return (
@@ -48,7 +49,11 @@ function AcoesPessoas() {
     />
   </Carousel.Item>
 </Carousel>
-        <p class="conheca">Conheça nossas ações</p>
+<div className = "botao">
+        <Button variant="outline-light" className = "colaborar-button">Conheça nossas ações</Button>
+        </div>
+
+        
     </div>
   );
 }
