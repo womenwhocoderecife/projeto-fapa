@@ -2,13 +2,13 @@ import React from "react";
 import Navbar from "react-bootstrap/Navbar";
 import Nav from "react-bootstrap/Nav";
 import "./style.css";
-import logo from "../../../assets/logo-provisoria.png";
+import logo from "../../../assets/logo-provisoria2.PNG";
 
 import Button from 'react-bootstrap/Button'
 function NavBarHome() {
   return (
-    <Navbar className="nav-container gray-light-color p-0"  expand="lg">
-    <div className="nav-container-fluid white-color" >
+    <Navbar className="nav-container nav_color p-0"  expand="lg">
+    <div className="nav-container-fluid " >
     <Navbar.Toggle aria-controls="basic-navbar-nav" />
    
     <Navbar.Brand href="/">
@@ -23,10 +23,10 @@ function NavBarHome() {
      </Nav>
    </Navbar.Collapse>
     
+    </div>
     <div className='color-NavButton'>
    <Button variant="outline-light" className = "colaborar-button">Colabore Conosco</Button>
    </div>
-    </div>
   
 </Navbar>
   );
