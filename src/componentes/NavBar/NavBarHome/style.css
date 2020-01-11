@@ -7,6 +7,11 @@
   margin: 0 1rem;
 }
 
+.color-NavButton{
+  background-color:white;
+  
+}
+
 .icon {
   color: gray;
   margin: 1rem 0.5rem 1rem;
@@ -29,7 +34,7 @@
 }
 
 .white-color{
-  background-color: white;
+  background-color:rgb(254, 218, 0);
 }
 .gray-light-color{
   background-color: #F5F6F7;
