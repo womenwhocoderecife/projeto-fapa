@@ -5,6 +5,7 @@ import Carousel from 'react-bootstrap/Carousel'
 import faparoda from '../../assets/fapa-roda.jpg';
 import idoso from '../../assets/fapa-idoso.jpg';
 import lindu from '../../assets/fapa-lindu.jpg';
+import Button from 'react-bootstrap/Button'
 
 function AcoesPessoas() {
   return (
@@ -26,14 +27,15 @@ function AcoesPessoas() {
       <Carousel>
   <Carousel.Item>
     <img
-      className="d-block w-100"
+      className="d-block w-100 h-100"
+
       src={faparoda}
       alt="First slide"
     />
   </Carousel.Item>
   <Carousel.Item>
     <img
-      className="d-block w-100"
+      className="d-block w-100 h-100"
       src={idoso}
       alt="Third slide"
     />
@@ -42,13 +44,17 @@ function AcoesPessoas() {
   </Carousel.Item>
   <Carousel.Item>
     <img
-      className="d-block w-100"
+      className="d-block w-100 h-100"
       src={lindu}
       alt="Third slide"
     />
   </Carousel.Item>
 </Carousel>
-        <p class="conheca">Conheça nossas ações</p>
+<div className = "botao">
+        <Button variant="outline-light" className = "colaborar-button">Conheça nossas ações</Button>
+        </div>
+
+        
     </div>
   );
 }
