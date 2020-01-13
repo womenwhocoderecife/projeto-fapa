@@ -5,7 +5,16 @@
   width: 8rem;
   height: 4rem;
   margin: 0 1rem;
+  margin-left: 2rem;
 }
+
+.color-NavButton{
+  background-color:white;
+  width: 35%;
+  text-align: center;
+}
+  
+
 
 .icon {
   color: gray;
@@ -31,9 +40,11 @@
 .white-color{
   background-color: white;
 }
-.gray-light-color{
-  background-color: #F5F6F7;
+
+.nav_color{
+  background-color: white;
 }
+
 .row {
   display: flex;
 }
@@ -62,12 +73,15 @@
   .nav-container-fluid {
     width: 100% !important;
     display: contents !important;
+    
   }
   .navbar-collapse{
     background-color: white !important;
     border-bottom: 1px solid lightgray;
   }
 }
+
+
 
 @media screen and (max-width: 1119px) and (min-width: 992px) {
   .nav-container-fluid {
@@ -84,6 +98,7 @@
   height: 100%;
   align-items: center;
   padding: 2rem 2.375rem;
+  background-color: rgb(255, 130, 0);
   
 }
 .nav-container {
