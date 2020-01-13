@@ -1,0 +1,257 @@
+* {
+    box-sizing: border-box;
+  } 
+
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 100%;
+    min-height: 1400px; 
+    background-color: white;
+    z-index: 0;
+    padding-bottom: 50px;
+    padding-top: 50px;
+}
+
+
+.card {
+    width: 95%;
+    align-self: center;
+    display: flex; 
+    /* border: 10px;
+    border-color: black;
+    border-style: solid; */
+    flex-direction: row;
+}
+
+.middle-card {
+    flex-wrap: wrap-reverse;
+    /* justify-content: right;
+    justify-self: right; */
+}
+
+.margin-card {
+    flex-wrap: wrap;
+    /* justify-content: left;
+    justify-self: left; */
+}
+
+.card-body {
+    color: #1B1B1B;
+    font-family: "Nunito";
+    font-style: normal;
+    width: 60%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    /* background-color: black;  */
+}
+
+.margin-body {
+    padding-left: 5px;
+}
+
+.middle-body {
+    padding-right: 5px;
+}
+
+
+.card-title {
+    font-size: 24px;
+    height: 40px;
+    max-width: 400px;
+    font-weight: 600;
+    line-height: 40px;
+    /* background-color: cadetblue; */
+    padding: 0;
+    margin: 0;
+}
+
+.card-text {
+    font-size: 16px;
+    /* height: 90px; */
+	max-width: 400px;
+    line-height: 30px;
+    /* background-color: coral; */
+    padding: 0;
+    margin: 0;
+}
+
+
+.retangulo {
+    position: absolute;
+    height: 298px;
+    width: 275px;
+    z-index: 1;
+    margin-top: 92px;
+    max-width: 100%;
+    display: block;
+     
+}
+
+.retangulo-amarelo {
+    background-color: #FFDA00;
+}
+
+.retangulo-verde {
+    background-color: #A9D825;
+    margin-left: 45px;
+}
+
+.retangulo-laranja {
+    background-color: #FF822E;
+}
+
+.right {
+    text-align: right;
+}
+
+.left {
+    text-align: left;
+}
+
+.depoiment-img {
+    position: absolute;  
+    height: 307px;	
+    width: 264px;
+    z-index: 2;
+}
+
+.middle-img {
+    margin-right: 0;
+    margin-top: 0;
+    padding-right: 0;
+    padding-bottom: 0;
+}
+
+.top-img, .bottom-img {
+    margin-left: 56px;
+    margin-top: 0;
+    padding-left: 0;
+    padding-bottom: 0;
+
+}
+
+.images {
+    width: 40%;
+    /* background-color: blueviolet; */
+    display: flex;
+    justify-content: space-around;
+    justify-items: auto;
+}
+
+.imgs-container {
+    width: 320px;
+    height: 390px;
+    max-width: 100%;
+    display: inline-flex;
+    /* background-color: black; */
+}
+
+
+/* Small devices - SMARTPHONES */
+
+@media screen and (max-width: 480px) {
+    .card-body,
+    .images,
+    .card-title,
+    .card-text {
+        width: 100%;
+        text-align: center;
+        align-self: center;
+    }
+    .card-body {
+        margin-top: 20px;
+        margin-bottom: 20px;
+    }
+    .card {
+        margin-top: 40px;
+    }
+
+    .container {
+        padding-top: 20px;
+        padding-bottom: 20px;
+    }
+
+    .margin-body {
+        padding-left: 0;
+    }
+    
+    .middle-body {
+        padding-right: 0;
+    }
+    
+}
+
+/* Small devices - TABLETS */
+
+@media screen and (max-width: 768px) {
+    .card-body,
+    .images,
+    .card-title,
+    .card-text {
+        width: 100%;
+        text-align: center;
+        align-self: center;
+    }
+    .card-body {
+        margin-top: 20px;
+        margin-bottom: 20px;
+    }
+    .card {
+        margin-top: 40px;
+        margin-bottom: 40px;
+    }
+
+    .container {
+        padding-top: 60px;
+        padding-bottom: 60px;
+    }
+
+    .margin-body {
+        padding-left: 0;
+    }
+    
+    .middle-body {
+        padding-right: 0;
+    }
+    
+} 
+
+/* Medium devices - TABLETS AND DESKTOPS */
+
+@media screen and (max-width: 960px) {
+    .card-body,
+    .images,
+    .card-title,
+    .card-text {
+        width: 100%;
+        text-align: center;
+        align-self: center;
+    }
+    .card-body {
+        margin-top: 20px;
+        margin-bottom: 20px;
+    }
+    .card {
+        margin-top: 40px;
+        margin-bottom: 40px;
+    }
+
+    .container {
+        padding-top: 60px;
+        padding-bottom: 60px;
+    }
+
+    .margin-body {
+        padding-left: 0;
+    }
+    
+    .middle-body {
+        padding-right: 0;
+    }
+    
+} 
+
+
