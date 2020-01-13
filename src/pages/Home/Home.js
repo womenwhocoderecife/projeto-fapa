@@ -3,15 +3,15 @@ import './Home.css';
 import AcoesPessoas from '../AcoesPessoas/AcoesPessoas';
 import MissaoVisao from '../MissaoVisao/MissaoVisao';
 import NavBarHome from '../../componentes/NavBar/NavBarHome/Nav'
+import Header from '../../componentes/Header/Header'
 
 function Home() {
   return (
     <div className="Home">
       <NavBarHome></NavBarHome>
-      <header className="Home-header">
+      <Header></Header>
       <MissaoVisao></MissaoVisao>
       <AcoesPessoas/>
-      </header>
     </div>
   );
 }

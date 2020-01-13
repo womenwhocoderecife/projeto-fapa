@@ -1,0 +1,26 @@
+.header-laranja {
+  display: flex;
+  background-color: #FF822E;
+  width: 1006px;
+  height: 669px;
+}
+
+.BG {
+  flex-direction: row;
+  display: flex;
+}
+
+.faca-algo-por-alguem {
+   justify-content: center;
+   display: flex;
+   height: 73px;
+   width: 579px;
+   color: #1B1B1B;
+   font-family: Nunito;
+   font-size: 56px;
+   font-weight: bold;
+   line-height: 73px;
+ }
+
+.ong-sem-fins-lucrati {	height: 30px;	width: 177px;	color: #1B1B1B;	font-family: Nunito;	font-size: 16px;	line-height: 30px;}
+.assista-o-video-comp {	height: 30px;	width: 179px;	color: #1B1B1B;	font-family: Nunito;	font-size: 16px;	line-height: 30px;}
