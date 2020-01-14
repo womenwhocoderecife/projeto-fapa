@@ -4,11 +4,12 @@ import "./index.css";
 import Home from "./pages/Home/Home";
 import NossaHistoria from "./pages/NossaHistoria/NossaHistoria";
 import NossasAcoes from "./pages/NossasAcoes/NossasAcoes";
-import EmConstrucao from "./pages/EmConstrucao/EmConstrucao";
+//import EmConstrucao from "./pages/EmConstrucao/EmConstrucao";
 import * as serviceWorker from "./serviceWorker";
 import "bootstrap/dist/css/bootstrap.min.css";
 import { BrowserRouter, Switch, Route } from "react-router-dom";
 import Footer from "./componentes/Footer/Footer";
+import JunteSe from "./pages/JunteSe/JunteSe";
 
 ReactDOM.render(
   <BrowserRouter>
@@ -16,7 +17,7 @@ ReactDOM.render(
       <Route path="/" exact={true} component={Home} />
       <Route path="/sobre-nos" component={NossaHistoria} />
       <Route path="/nossas-acoes" component={NossasAcoes} />
-      <Route path="/junte-se" component={EmConstrucao} />
+      <Route path="/junte-se" component={JunteSe} />
     </Switch>
     <Footer />
   </BrowserRouter>,

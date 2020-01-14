@@ -1,0 +1,91 @@
+* {
+    box-sizing: border-box;
+  } 
+
+.container {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width: 100%;
+    min-height: 1400px; 
+    background-color: white;
+    z-index: 0;
+    padding-bottom: 50px;
+    padding-top: 50px;
+}
+
+.card {
+    display: flex; 
+    flex-direction: column;
+}
+
+.images {
+    width: 100%;
+}
+
+.imgs-container {
+    width: 330px;
+    height: 452px;
+    max-width: 100%;
+    display: inline-flex;
+}
+
+.inscription-img {
+    position: absolute;  
+    height: 307px;	
+    width: 264px;
+    z-index: 2;
+    margin-right: 0;
+    margin-top: 0;
+    padding-right: 0;
+    padding-bottom: 0;
+}
+
+.retangulo {
+    position: absolute;
+    height: 298px;
+    width: 275px;
+    z-index: 1;
+    margin-top: 145px;
+    margin-left: 55px;
+    max-width: 100%;
+    display: block;
+     
+}
+
+.retangulo-amarelo {
+    background-color: #FFDA00;
+}
+
+.retangulo-verde {
+    background-color: #A9D825;
+}
+
+.retangulo-laranja {
+    background-color: #FF822E;
+}
+
+.txt {
+    color: #1B1B1B;
+    font-family: "Nunito";
+}
+
+.card-title {
+    height: 54px;
+	width: 100%;
+    font-style: normal;
+	font-size: 40px;
+	line-height: 54px;
+    text-align: left;
+    z-index: 2;
+    padding-top: 360px;
+    position: absolute;
+}
+
+.texto-inscricao {
+    height: 160px;	
+    width: 331px;		
+    font-size: 24px;	
+    font-weight: 600;	
+    line-height: 40px;
+}
