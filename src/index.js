@@ -18,7 +18,6 @@ ReactDOM.render(
       <Route path="/nossas-acoes" component={NossasAcoes} />
       <Route path="/junte-se" component={EmConstrucao} />
     </Switch>
-    <Footer />
   </BrowserRouter>,
   document.getElementById("root")
 );

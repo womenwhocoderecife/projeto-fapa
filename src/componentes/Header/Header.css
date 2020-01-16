@@ -10,15 +10,13 @@
 }
 
 .fapa-card {
-  align-self: center;
-  display: flex;
-  flex-direction: column;
-  align-items: flex-start;
+  margin-top: 316px;
   margin-left: 150px;
+  margin-bottom: 4px;
+  position: absolute;
 }
 
 .faca-algo-por-alguem {
-  display: flex;
   color: #1B1B1B;
   font-family: "Nunito";
   font-size: 56px;
@@ -27,17 +25,37 @@
  }
 
 .ong-sem-fins-lucrati {
-  display: flex;
   color: #1B1B1B;
   font-family: "Nunito";
   font-size: 16px;
   line-height: 30px;
 }
 
+.video-fapa {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+	height: 600px;
+  width: 1468px;
+  margin-left: 442px;
+  margin-right: 150px;
+  margin-top: 85px;
+}
+
 .assista-o-video-comp {
   display: flex;
+  align-self: flex-start;
+  margin-top: 16px;
   color: #1B1B1B;
   font-family: "Nunito";
   font-size: 16px;
   line-height: 30px;
+}
+
+.img {
+  height: 24px;
+  width: 24px;
+  margin-left: 4px;
+  margin-top: 3px;
+  align-self: flex-start;
 }

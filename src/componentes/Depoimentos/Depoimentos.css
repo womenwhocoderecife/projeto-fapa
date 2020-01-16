@@ -1,14 +1,13 @@
 * {
     box-sizing: border-box;
-  } 
+  }
 
 .container {
     display: flex;
     flex-direction: column;
     justify-content: center;
     width: 100%;
-    min-height: 1400px; 
-    background-color: white;
+    min-height: 1400px;
     z-index: 0;
     padding-bottom: 50px;
     padding-top: 50px;
@@ -18,23 +17,19 @@
 .card {
     width: 95%;
     align-self: center;
-    display: flex; 
-    /* border: 10px;
-    border-color: black;
-    border-style: solid; */
+    display: flex;
     flex-direction: row;
+    border-radius: 0;
+    border: none;
+    background-color: none;
 }
 
 .middle-card {
     flex-wrap: wrap-reverse;
-    /* justify-content: right;
-    justify-self: right; */
 }
 
 .margin-card {
     flex-wrap: wrap;
-    /* justify-content: left;
-    justify-self: left; */
 }
 
 .card-body {
@@ -45,7 +40,6 @@
     display: flex;
     flex-direction: column;
     justify-content: center;
-    /* background-color: black;  */
 }
 
 .margin-body {
@@ -63,17 +57,14 @@
     max-width: 400px;
     font-weight: 600;
     line-height: 40px;
-    /* background-color: cadetblue; */
     padding: 0;
     margin: 0;
 }
 
 .card-text {
     font-size: 16px;
-    /* height: 90px; */
-	max-width: 400px;
+	  max-width: 400px;
     line-height: 30px;
-    /* background-color: coral; */
     padding: 0;
     margin: 0;
 }
@@ -87,7 +78,7 @@
     margin-top: 92px;
     max-width: 100%;
     display: block;
-     
+
 }
 
 .retangulo-amarelo {
@@ -112,8 +103,8 @@
 }
 
 .depoiment-img {
-    position: absolute;  
-    height: 307px;	
+    position: absolute;
+    height: 307px;
     width: 264px;
     z-index: 2;
 }
@@ -135,7 +126,6 @@
 
 .images {
     width: 40%;
-    /* background-color: blueviolet; */
     display: flex;
     justify-content: space-around;
     justify-items: auto;
@@ -177,11 +167,11 @@
     .margin-body {
         padding-left: 0;
     }
-    
+
     .middle-body {
         padding-right: 0;
     }
-    
+
 }
 
 /* Small devices - TABLETS */
@@ -212,12 +202,12 @@
     .margin-body {
         padding-left: 0;
     }
-    
+
     .middle-body {
         padding-right: 0;
     }
-    
-} 
+
+}
 
 /* Medium devices - TABLETS AND DESKTOPS */
 
@@ -247,11 +237,9 @@
     .margin-body {
         padding-left: 0;
     }
-    
+
     .middle-body {
         padding-right: 0;
     }
-    
-} 
 
-
+}

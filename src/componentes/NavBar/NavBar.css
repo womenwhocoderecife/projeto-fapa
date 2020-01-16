@@ -41,9 +41,9 @@
 .colaborar-button{
   margin: 0 1rem;
   height: 4rem;
-  color:#FF822E !important;  
+  color:#FF822E !important;
   font-family: 'Nunito', sans-serif !important; ;
-  border-radius:2rem !important; 
+  border-radius:2rem !important;
   border: 1px solid #FF822E !important
 
 }
@@ -84,7 +84,7 @@
   height: 100%;
   align-items: center;
   padding: 2rem 2.375rem;
-  
+
 }
 .nav-container {
   position: fixed;
@@ -93,7 +93,7 @@
   z-index: 3;
   padding: 0;
   height: 6rem;
- 
+
 }
 .nav-bar-item{
   font-size: 1rem;
