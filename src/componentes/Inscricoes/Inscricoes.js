@@ -3,6 +3,7 @@ import './Inscricoes.css';
 import voluntario1 from '../../assets/fapa-depoente-homem-negro.jpg';
 import voluntario2 from '../../assets/fapa-depoente-mulher.jpg';
 import voluntario3 from '../../assets/fapa-depoente-homem-branco.jpg';
+import Button from 'react-bootstrap/Button'
 
 function Inscricoes() {
   return (
@@ -16,9 +17,9 @@ function Inscricoes() {
                 </div>
             </div>
             <p className = "texto-inscricao txt">
-                Texto de Inscricoes
+            Desenvolver e apoiar ações para a defesa e elevação da qualidade de vida do ser humano.
             </p>
-            <button className = "btn-inscription"> Botão </button>
+            <Button variant="outline-light" className = "colaborar-button">Seja um Voluntário Anjo</Button>
         </div>
 
         <div className = "card">
@@ -30,9 +31,9 @@ function Inscricoes() {
                 </div>
             </div>
             <p className = "texto-inscricao txt">
-                Texto de Inscricoes
+            Desenvolver e apoiar ações para a defesa e elevação da qualidade de vida do ser humano.
             </p>
-            <button className = "btn-inscription"> Botão </button>
+            <Button variant="outline-light" className = "colaborar-button">Seja um Voluntário Anjo</Button>
         </div>
 
         <div className = "card">
@@ -44,9 +45,9 @@ function Inscricoes() {
                 <h1 className = "card-title txt">Voluntário Anjo</h1>
             </div>
             <p className = "texto-inscricao txt">
-                Texto de Inscricoes
+                Desenvolver e apoiar ações para a defesa e elevação da qualidade de vida do ser humano.
             </p>
-            <button className = "btn-inscription"> Botão </button>
+            <Button variant="outline-light" className = "colaborar-button">Seja um Voluntário Anjo</Button>
         </div>
 
     </section>
