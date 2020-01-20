@@ -3,7 +3,7 @@
     text-align: center;
     /*Border: 1px solid black;*/
     padding-bottom: 100%;
-    
+
 }
 .skills1{
     Display: Flex;
@@ -19,7 +19,6 @@
     padding top: 70%;
     padding bottom: 5%;
     background:  #FFFFFF;
-    Border: 1px solid black;
 
 }
 .conteiner_box {
@@ -31,7 +30,7 @@
     padding-bottom: 2%;
     padding-right: 5%;
     padding-left: 10%;
-    
+
 
 }
 .box{
@@ -42,13 +41,13 @@
     Display: Flex;
     flex-direction: column;
     justify-content: center;
-    
-    
+
+
 }
 img{
     width: 50px;
     height: 90px;
-    
+
     /* Border: 1px solid black; */
 }
 
@@ -58,7 +57,7 @@ img{
     justify-content: flex-start;
     font-family: Nunito Regular;
     font-style: normal;
-    
+
     line-height: 100%;
     color: black;
     /* Border: 1px solid black; */

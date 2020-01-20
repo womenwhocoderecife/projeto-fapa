@@ -13,7 +13,7 @@
 }
 .div-numero{
     margin: 50px;
-    
+
 }
 .numero{
     font-size: 100px;
@@ -36,7 +36,7 @@ h2{
 }
 .carousel{
     margin: 0% 10% 5%;
-    
+
 }
 
 .d-block {
@@ -48,8 +48,5 @@ h2{
     display: flex;
     justify-content: center;
     width: 213px;
-    height: 64px;
-    /*margin-bottom: 25px;
-    margin-top: 25px;*/
     padding: 24px 21px 24px;
 }

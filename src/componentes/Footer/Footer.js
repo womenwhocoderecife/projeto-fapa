@@ -4,7 +4,7 @@ import { FaInstagram, FaPhone,FaMailBulk,FaAddressCard } from "react-icons/fa";
 function Footer() {
   return (
     <div className="Footer gray-light-color p-0">
-        <div className  = "container-fluid p-0">
+        <div className  = "container">
             <div className = "container">
             <div className = "row h-100 w-100 d-flex justify-content-center align-items-center">
             <div className = "col-md-6">

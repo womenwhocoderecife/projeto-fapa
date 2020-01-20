@@ -1,9 +1,8 @@
 .Footer .container{
-   
     z-index: 3;
     padding: 2rem;
     margin-top: 1rem;
-
+    min-height: 0;
 }
 
 .Footer .vertical-align {
@@ -25,5 +24,5 @@
     .Footer .row{
         flex-direction: inherit;
     }
-  
+
 }

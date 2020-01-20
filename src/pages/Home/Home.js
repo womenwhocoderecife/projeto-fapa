@@ -1,19 +1,20 @@
 import React from 'react';
 import './Home.css';
-import AcoesPessoas from '../AcoesPessoas/AcoesPessoas';
-import MissaoVisao from '../MissaoVisao/MissaoVisao';
+import AcoesPessoas from '../../componentes/AcoesPessoas/AcoesPessoas';
+import MissaoVisao from '../../componentes/MissaoVisao/MissaoVisao';
+import Header from '../../componentes/Header/Header';
 import NavBarHome from '../../componentes/NavBar/NavBarHome/Nav';
 import Depoimentos from '../../componentes/Depoimentos/Depoimentos';
-
+import Footer from '../../componentes/Footer/Footer';
 function Home() {
   return (
     <div className="Home">
       <NavBarHome></NavBarHome>
-      <header className="Home-header">
+      <Header></Header>
       <MissaoVisao></MissaoVisao>
-      <AcoesPessoas/>
+      <AcoesPessoas></AcoesPessoas>
       <Depoimentos></Depoimentos>
-      </header>
+      <Footer></Footer>
     </div>
   );
 }

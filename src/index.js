@@ -19,7 +19,6 @@ ReactDOM.render(
       <Route path="/nossas-acoes" component={NossasAcoes} />
       <Route path="/junte-se" component={JunteSe} />
     </Switch>
-    <Footer />
   </BrowserRouter>,
   document.getElementById("root")
 );
