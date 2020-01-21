@@ -2,6 +2,7 @@ import React from "react";
 import "./NossasAcoes.css";
 import NavBar from "../../componentes/NavBar";
 import Acoes from "../../componentes/Acoes";
+import DetalhesAcoes from "../../componentes/DetalhesAcoes";
 import Acompanhe from "../../componentes/Acompanhe";
 
 function NossasAcoes() {
@@ -18,6 +19,12 @@ function NossasAcoes() {
 
           <Acoes />
         </div>
+
+        <h4 className="subtitulo">
+          Descubra mais sobre nossas ações durante o ano
+        </h4>
+
+        <DetalhesAcoes />
       </div>
       <Acompanhe />
     </div>

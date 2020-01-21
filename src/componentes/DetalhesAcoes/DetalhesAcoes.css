@@ -1,0 +1,31 @@
+.cards-view-detalhes {
+  width: 100%;
+  display: flex;
+  direction: row;
+  justify-content: center;
+}
+.image-title {
+  font-size: 1rem;
+  color: #1b1b1b;
+  font-family: "Nunito";
+  font-style: normal;
+}
+
+.card-detalhes {
+  background-color: transparent;
+  border: transparent;
+  margin: 2rem;
+}
+.card-body-detalhes {
+  vertical-align: baseline;
+  padding: 1rem;
+}
+.ver-detalhes-button {
+  color: #ff822e !important;
+  font-family: "Nunito", sans-serif !important;
+  margin-left: -0.8rem;
+}
+
+.ver-detalhes-button:hover {
+  font-weight: bold;
+}
