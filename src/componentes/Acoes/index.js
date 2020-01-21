@@ -9,14 +9,14 @@ function Acoes() {
     const image = require("../../assets/nossas-acoes/" + item.icon);
     if (index <= 3) {
       return cards_line1.push(
-        <div className="square">
+        <div className="square" key={"cards-acoes" + item.id}>
           <img className="image-square" src={image} alt="acoes"></img>
           <span className="image-title"> {item.titulo} </span>
         </div>
       );
     } else {
       return cards_line2.push(
-        <div className="square">
+        <div className="square" key={"cards-acoes" + item.id}>
           <img className="image-square" src={image} alt="acoes"></img>
           <span className="image-title"> {item.titulo} </span>
         </div>
