@@ -91,10 +91,11 @@
   line-height: 40px;
   text-align: left;
 }
+/*
 .colaborar-button {
   width: 229px;
   height: 64px;
-}
+}*/
 
 /*Small devices and Smartphones*/
 @media screen and (min-width: 480px) {

@@ -1,12 +1,14 @@
 * {
-    box-sizing: border-box;
-  }
+  box-sizing: border-box;
+}
 
 .header-laranja {
   display: flex;
-  background-color: #FF822E;
-  width: 1006px;
+  background-color: #ff822e;
+  width: 74.5%;
   height: 669px;
+  padding: 0;
+  margin: 0;
 }
 
 .fapa-card {
@@ -17,15 +19,15 @@
 }
 
 .faca-algo-por-alguem {
-  color: #1B1B1B;
+  color: white;
   font-family: "Nunito";
   font-size: 56px;
   font-weight: bold;
   line-height: 73px;
- }
+}
 
 .ong-sem-fins-lucrati {
-  color: #1B1B1B;
+  color: white;
   font-family: "Nunito";
   font-size: 16px;
   line-height: 30px;
@@ -35,7 +37,7 @@
   display: flex;
   flex-direction: column;
   align-items: center;
-	height: 600px;
+  height: 600px;
   width: 1468px;
   margin-left: 442px;
   margin-right: 150px;
@@ -46,7 +48,7 @@
   display: flex;
   align-self: flex-start;
   margin-top: 16px;
-  color: #1B1B1B;
+  color: #1b1b1b;
   font-family: "Nunito";
   font-size: 16px;
   line-height: 30px;

@@ -1,74 +1,37 @@
-.main {
-  background: #ffffff;
-  text-align: center;
-  /*Border: 1px solid black;*/
-  padding-bottom: 100%;
+.MissaoVisao .container-fluid {
+  background-color: white;
+  padding: 1rem;
 }
-.skills1 {
-  display: Flex;
-  flex-wrap: wrap;
-  align-items: center;
-  margin-right: 10%;
-  margin-left: 50%;
-  margin-left: 5%;
-  margin-block-end: 5%;
-
-  padding-right: 7%;
-  padding-right: 20%;
-  padding-top: 70%;
-  padding-bottom: 5%;
-  background: #ffffff;
+.MissaoVisao .missao-view {
+  padding: 2rem 1rem;
 }
-.conteiner_box {
-  display: flex;
-  /* justify-content: center; */
-  width: 100%;
-  margin-top: 25px;
-  justify-content: space-evenly;
-  padding-bottom: 2%;
-  padding-right: 5%;
-  padding-left: 10%;
-}
-.box {
-  width: 50%;
-  margin-left: 3%;
-  padding: 25px;
-  background: #ffffff;
-  display: Flex;
-  flex-direction: column;
-  justify-content: center;
-}
-img {
-  width: 50px;
-  height: 90px;
-
-  /* Border: 1px solid black; */
-}
-
-.titulo_card {
-  font-size: 30px;
-  font-weight: 500;
-  justify-content: flex-start;
-  font-family: Nunito Regular;
+.MissaoVisao .titulo_card {
+  font-size: 2.5rem;
+  color: #1b1b1b;
+  font-family: "Nunito";
   font-style: normal;
-
-  line-height: 100%;
-  color: black;
-  /* Border: 1px solid black; */
+  margin: 0.5rem 0;
 }
-.texto_card {
-  width: 80%;
-  height: 10%;
-  font-size: ;
-  font-family: Nunito SemiBold;
 
-  color: black;
-  /* Border: 1px solid black; */
+.MissaoVisao .texto_card {
+  font-size: 1.5rem;
+  color: #1b1b1b;
+  font-family: "Nunito";
+  font-style: normal;
 }
-.botao {
+
+.MissaoVisao .saiba-mais-button {
+  height: 3.5rem;
+  color: #ff822e !important;
+  font-family: "Nunito", sans-serif !important;
+  border-radius: 2rem !important;
+  border: 1px solid #ff822e !important;
+  text-align: center;
   display: flex;
-  justify-content: center;
-  width: 100%;
-  margin-bottom: 25px;
-  margin-top: 25px;
+  align-items: center;
+}
+
+.saiba-mais-button:hover {
+  background-color: #ff822e !important;
+  color: white !important;
 }

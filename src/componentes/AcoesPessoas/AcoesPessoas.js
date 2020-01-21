@@ -1,15 +1,14 @@
-import React from 'react';
-import './AcoesPessoas.css';
-import 'bootstrap/dist/css/bootstrap.min.css';
-import Carousel from 'react-bootstrap/Carousel'
-import faparoda from '../../assets/fapa-roda.jpg';
-import idoso from '../../assets/fapa-idoso.jpg';
-import lindu from '../../assets/fapa-lindu.jpg';
-import Button from 'react-bootstrap/Button'
+import React from "react";
+import "./AcoesPessoas.css";
+import "bootstrap/dist/css/bootstrap.min.css";
+import Carousel from "react-bootstrap/Carousel";
+import faparoda from "../../assets/fapa-roda.jpg";
+import idoso from "../../assets/fapa-idoso.jpg";
+import lindu from "../../assets/fapa-lindu.jpg";
+import Button from "react-bootstrap/Button";
 
 function AcoesPessoas() {
   return (
-
     <div className="container-alcance">
       <div class="container-numero">
         <div class="row">
@@ -25,36 +24,29 @@ function AcoesPessoas() {
       </div>
 
       <Carousel>
-  <Carousel.Item>
-    <img
-      className="d-block w-100 h-100"
-
-      src={faparoda}
-      alt="First slide"
-    />
-  </Carousel.Item>
-  <Carousel.Item>
-    <img
-      className="d-block w-100 h-100"
-      src={idoso}
-      alt="Third slide"
-    />
-
-
-  </Carousel.Item>
-  <Carousel.Item>
-    <img
-      className="d-block w-100 h-100"
-      src={lindu}
-      alt="Third slide"
-    />
-  </Carousel.Item>
-</Carousel>
-<div className = "botao">
-        <Button variant="outline-light" className = "colaborar-button">Conheça nossas ações</Button>
-        </div>
-
-        
+        <Carousel.Item>
+          <img
+            className="d-block w-100 h-100"
+            src={faparoda}
+            alt="First slide"
+          />
+        </Carousel.Item>
+        <Carousel.Item>
+          <img className="d-block w-100 h-100" src={idoso} alt="Third slide" />
+        </Carousel.Item>
+        <Carousel.Item>
+          <img className="d-block w-100 h-100" src={lindu} alt="Third slide" />
+        </Carousel.Item>
+      </Carousel>
+      <div className="row d-flex justify-content-center">
+        <Button
+          variant="outline-light"
+          className="nossas-acoes-button"
+          href="/nossas-acoes"
+        >
+          Conheça nossas ações
+        </Button>
+      </div>
     </div>
   );
 }
