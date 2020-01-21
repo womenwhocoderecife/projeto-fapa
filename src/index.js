@@ -8,7 +8,7 @@ import NossasAcoes from "./pages/NossasAcoes/NossasAcoes";
 import * as serviceWorker from "./serviceWorker";
 import "bootstrap/dist/css/bootstrap.min.css";
 import { BrowserRouter, Switch, Route } from "react-router-dom";
-import Footer from "./componentes/Footer/Footer";
+
 import JunteSe from "./pages/JunteSe/JunteSe";
 
 ReactDOM.render(

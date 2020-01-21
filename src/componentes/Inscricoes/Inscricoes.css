@@ -1,110 +1,88 @@
-* {
-  box-sizing: border-box;
+.Inscricoes .container-fluid {
+  background-color: white;
+  padding: 4rem 0 !important;
 }
 
-/*
-.container {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    width: 100%;
-    min-height: 1400px;
-    z-index: 0;
-    padding-bottom: 50px;
-    padding-top: 50px;
-}
-*/
-
-.card {
-  display: flex;
-  flex-direction: column;
-  border: none;
-}
-
-.images {
-  width: 100%;
-}
-
-.imgs-container {
-  width: 330px;
-  height: 452px;
-  max-width: 100%;
-  display: inline-flex;
-}
-
-.inscription-img {
+.Inscricoes .square {
+  width: 15rem;
+  max-width: 90%;
+  height: 16rem;
   position: absolute;
-  height: 307px;
-  width: 264px;
-  z-index: 2;
-  margin-right: 0;
-  margin-top: 0;
-  padding-right: 0;
-  padding-bottom: 0;
+  margin-top: 4rem;
 }
 
-.retangulo {
-  position: absolute;
-  height: 298px;
-  width: 275px;
-  z-index: 1;
-  margin-top: 145px;
-  margin-left: 55px;
-  max-width: 100%;
-  display: block;
-}
-
-.retangulo-amarelo {
+.Inscricoes .yellow {
   background-color: #ffda00;
 }
+.Inscricoes .inscricoes-view {
+  padding-top: 2.5rem;
+}
 
-.retangulo-verde {
+.Inscricoes .image {
+  max-width: 16rem;
+  height: 16rem;
+  object-fit: cover;
+  position: relative;
+  z-index: 2;
+  background-color: black;
+}
+
+.Inscricoes .margin-left {
+  margin-left: 2rem;
+}
+.Inscricoes .view {
+  margin: 0.5rem 0.25rem;
+  display: flex;
+  flex-direction: column;
+}
+.Inscricoes .texto {
+  display: flex;
+  flex-direction: column;
+
+  align-self: center;
+  z-index: 2;
+  position: relative;
+}
+
+.Inscricoes .titulo {
+  font-size: 2.3rem;
+  color: #1b1b1b;
+  font-family: "Nunito";
+  font-weight: 400;
+  width: 100%;
+  z-index: 2;
+  position: inherit;
+  margin: 1rem;
+  text-align: center;
+}
+
+.Inscricoes .green {
   background-color: #a9d825;
 }
 
-.retangulo-laranja {
+.Inscricoes .orange {
   background-color: #ff822e;
 }
 
-.txt {
-  color: #1b1b1b;
-  font-family: "Nunito";
+.Inscricoes .reverse {
+  flex-direction: row-reverse;
 }
 
-.card-title {
-  height: 54px;
-  width: 100%;
-  font-style: normal;
-  font-size: 40px;
-  line-height: 54px;
-  text-align: left;
-  z-index: 2;
-  padding-top: 360px;
-  position: absolute;
+.Inscricoes .align-right {
+  text-align: right !important;
 }
 
-.texto-inscricao {
-  height: 160px;
-  width: 331px;
-  font-size: 24px;
-  font-weight: 600;
-  line-height: 40px;
-  text-align: left;
+.Inscricoes .voluntario-button {
+  margin: 0 1rem;
+  height: 4rem;
+  color: #ff822e !important;
+  font-family: "Nunito", sans-serif !important;
+  border-radius: 2rem !important;
+  border: 1px solid #ff822e !important;
+  text-align: center;
 }
-/*
-.colaborar-button {
-  width: 229px;
-  height: 64px;
-}*/
 
-/*Small devices and Smartphones*/
-@media screen and (min-width: 480px) {
-  .card,
-  .images,
-  .card-title,
-  .texto-inscricao {
-    width: 100%;
-    text-align: center;
-    align-self: center;
-  }
+.Inscricoes .voluntario-button:hover {
+  background-color: #ff822e !important;
+  color: white !important;
 }

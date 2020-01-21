@@ -10,7 +10,7 @@ function Depoimentos() {
     <div className="Depoimentos">
       <div className="container-fluid ">
         <div className="container">
-          <div className="row justify-content-center d-flex depoimentos-view">
+          <div className="row justify-content-center d-flex inscricoes-view">
             <div className="col-md-4 view-image">
               <div className="square yellow"></div>
               <img
@@ -29,7 +29,7 @@ function Depoimentos() {
               </p>
             </div>
           </div>
-          <div className="row justify-content-center d-flex depoimentos-view reverse">
+          <div className="row justify-content-center d-flex inscricoes-view reverse">
             <div className="col-md-4 view-image">
               <div className="square green margin-left"></div>
               <img className="image" src={depoente2} alt="primeiro depoente" />
@@ -44,7 +44,7 @@ function Depoimentos() {
               </p>
             </div>
           </div>
-          <div className="row justify-content-center d-flex depoimentos-view">
+          <div className="row justify-content-center d-flex inscricoes-view">
             <div className="col-md-4 view-image">
               <div className="square orange margin-left"></div>
               <img className="image" src={depoente3} alt="primeiro depoente" />

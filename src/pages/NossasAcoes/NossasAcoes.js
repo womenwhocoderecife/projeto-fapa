@@ -2,6 +2,8 @@ import React from "react";
 import "./NossasAcoes.css";
 import NavBar from "../../componentes/NavBar";
 import Acoes from "../../componentes/Acoes";
+import Acompanhe from "../../componentes/Acompanhe";
+
 function NossasAcoes() {
   return (
     <div className="NossasAcoes">
@@ -17,6 +19,7 @@ function NossasAcoes() {
           <Acoes />
         </div>
       </div>
+      <Acompanhe />
     </div>
   );
 }
