@@ -1,227 +1,79 @@
 * {
   box-sizing: border-box;
 }
-/*
-.container {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    width: 100%;
-    min-height: 1400px;
-    z-index: 0;
-    padding-bottom: 50px;
-    padding-top: 50px;
-}
-*/
-.card {
-  width: 95%;
-  align-self: center;
-  display: flex;
-  flex-direction: row;
-  border-radius: 0;
-  border: none;
-  background-color: none;
+
+.Depoimentos .container-fluid {
+  background-color: white;
+  padding: 4rem 0;
 }
 
-.middle-card {
-  flex-wrap: wrap-reverse;
+.Depoimentos .depoimentos-view {
+  padding: 1.5rem 0;
 }
 
-.margin-card {
-  flex-wrap: wrap;
-}
-
-.card-body {
-  color: #1b1b1b;
-  font-family: "Nunito";
-  font-style: normal;
-  width: 60%;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-}
-
-.margin-body {
-  padding-left: 5px;
-}
-
-.middle-body {
-  padding-right: 5px;
-}
-
-.card-title {
-  font-size: 24px;
-  height: 40px;
-  max-width: 400px;
-  font-weight: 600;
-  line-height: 40px;
-  padding: 0;
-  margin: 0;
-}
-
-.card-text {
-  font-size: 16px;
-  max-width: 400px;
-  line-height: 30px;
-  padding: 0;
-  margin: 0;
-}
-
-.retangulo {
+.Depoimentos .square {
+  width: 17.1875rem;
+  max-width: 90%;
+  height: 18.75rem;
   position: absolute;
-  height: 298px;
-  width: 275px;
-  z-index: 1;
-  margin-top: 92px;
-  max-width: 100%;
-  display: block;
+  margin-top: 4rem;
 }
 
-.retangulo-amarelo {
+.Depoimentos .yellow {
   background-color: #ffda00;
 }
 
-.retangulo-verde {
-  background-color: #a9d825;
-  margin-left: 45px;
+.Depoimentos .image {
+  max-width: 100%;
+  height: 18.75rem;
+  object-fit: cover;
+  position: relative;
+  z-index: 2;
+  background-color: black;
 }
 
-.retangulo-laranja {
+.Depoimentos .margin-left {
+  margin-left: 6.25rem;
+}
+.Depoimentos .view-image {
+  padding: 1rem 0 1rem 1.875rem;
+  margin-bottom: 2rem;
+}
+.Depoimentos .view-texto {
+  display: flex;
+  flex-direction: column;
+  padding: 2rem 2.5rem;
+  align-self: center;
+}
+
+.Depoimentos .titulo {
+  font-size: 1.5rem;
+  color: #1b1b1b;
+  font-family: "Nunito";
+  font-weight: 700;
+  width: 100%;
+}
+
+.Depoimentos .texto {
+  font-size: 1rem;
+  color: #1b1b1b;
+  font-family: "Nunito";
+  font-weight: normal;
+  width: 100%;
+}
+
+.Depoimentos .green {
+  background-color: #a9d825;
+}
+
+.Depoimentos .orange {
   background-color: #ff822e;
 }
 
-.right {
-  text-align: right;
+.Depoimentos .reverse {
+  flex-direction: row-reverse;
 }
 
-.left {
-  text-align: left;
-}
-
-.depoiment-img {
-  position: absolute;
-  height: 307px;
-  width: 264px;
-  z-index: 2;
-}
-
-.middle-img {
-  margin-right: 0;
-  margin-top: 0;
-  padding-right: 0;
-  padding-bottom: 0;
-}
-
-.top-img,
-.bottom-img {
-  margin-left: 56px;
-  margin-top: 0;
-  padding-left: 0;
-  padding-bottom: 0;
-}
-
-.images {
-  width: 40%;
-  display: flex;
-  justify-content: space-around;
-  justify-items: auto;
-}
-
-.imgs-container {
-  width: 320px;
-  height: 390px;
-  max-width: 100%;
-  display: inline-flex;
-  /* background-color: black; */
-}
-
-/* Small devices - SMARTPHONES */
-
-@media screen and (max-width: 480px) {
-  .card-body,
-  .images,
-  .card-title,
-  .card-text {
-    width: 100%;
-    text-align: center;
-    align-self: center;
-  }
-  .card-body {
-    margin-top: 20px;
-    margin-bottom: 20px;
-  }
-  .card {
-    margin-top: 40px;
-  }
-
-  /*.container {
-    padding-top: 20px;
-    padding-bottom: 20px;
-  }
-*/
-  .margin-body {
-    padding-left: 0;
-  }
-
-  .middle-body {
-    padding-right: 0;
-  }
-}
-
-/* Small devices - TABLETS */
-
-@media screen and (max-width: 768px) {
-  .card-body,
-  .images,
-  .card-title,
-  .card-text {
-    width: 100%;
-    text-align: center;
-    align-self: center;
-  }
-  .card-body {
-    margin-top: 20px;
-    margin-bottom: 20px;
-  }
-  .card {
-    margin-top: 40px;
-    margin-bottom: 40px;
-  }
-
-  .margin-body {
-    padding-left: 0;
-  }
-
-  .middle-body {
-    padding-right: 0;
-  }
-}
-
-/* Medium devices - TABLETS AND DESKTOPS */
-
-@media screen and (max-width: 960px) {
-  .card-body,
-  .images,
-  .card-title,
-  .card-text {
-    width: 100%;
-    text-align: center;
-    align-self: center;
-  }
-  .card-body {
-    margin-top: 20px;
-    margin-bottom: 20px;
-  }
-  .card {
-    margin-top: 40px;
-    margin-bottom: 40px;
-  }
-
-  .margin-body {
-    padding-left: 0;
-  }
-
-  .middle-body {
-    padding-right: 0;
-  }
+.Depoimentos .align-right {
+  text-align: right !important;
 }

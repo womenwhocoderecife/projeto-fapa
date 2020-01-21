@@ -1,53 +1,67 @@
-import React from 'react';
-import './Depoimentos.css';
+import React from "react";
+import "./Depoimentos.css";
 
-import depoente1 from '../../assets/fapa-depoente-homem-negro.jpg';
-import depoente2 from '../../assets/fapa-depoente-mulher.jpg';
-import depoente3 from '../../assets/fapa-depoente-homem-branco.jpg';
+import depoente1 from "../../assets/fapa-depoente-homem-negro.jpg";
+import depoente2 from "../../assets/fapa-depoente-mulher.jpg";
+import depoente3 from "../../assets/fapa-depoente-homem-branco.jpg";
 
 function Depoimentos() {
   return (
-    
-    <section className="container">
-        <div className = "card margin-card">
-          <div className = "images"> 
-            <div className = "imgs-container">
-              <img className = "depoiment-img top-img" src = {depoente1} alt = "primeiro depoente"/>
-              <div className = "retangulo-amarelo retangulo"> </div>
+    <div className="Depoimentos">
+      <div className="container-fluid ">
+        <div className="container">
+          <div className="row justify-content-center d-flex depoimentos-view">
+            <div className="col-md-4 view-image">
+              <div className="square yellow"></div>
+              <img
+                className="image margin-left"
+                src={depoente1}
+                alt="primeiro depoente"
+              />
             </div>
-          </div>
-          <div className = "card-body margin-body">
-            <h5 className = "card-title left"> "Mudou minha vida” </h5>
-            <p className = "card-text left"> Ser reconhecida como uma instituição íntegra, onde voluntários sintam-se seguros para destinar suas energias em prol de um bem comum. </p>
-          </div>
-        </div>
 
-        <div className = "card middle-card">
-        <div className = "card-body middle-body">
-            <h5 className = "card-title right"> "Mudou minha vida” </h5>
-            <p className = "card-text right"> Ser reconhecida como uma instituição íntegra, onde voluntários sintam-se seguros para destinar suas energias em prol de um bem comum. </p>
-          </div>
-          <div className = "images">
-            <div className = "imgs-container"> 
-              <img className = "depoiment-img middle-img" src = {depoente2} alt = "segundo depoente"/>
-              <div className = "retangulo-verde retangulo"> </div>
+            <div className="col-md-6 view-texto">
+              <h5 className="titulo"> "Mudou minha vida” </h5>
+              <p className="texto">
+                " Ser reconhecida como uma instituição íntegra, onde voluntários
+                sintam-se seguros para destinar suas energias em prol de um bem
+                comum."
+              </p>
             </div>
-        </div>
-        </div>
+          </div>
+          <div className="row justify-content-center d-flex depoimentos-view reverse">
+            <div className="col-md-4 view-image">
+              <div className="square green margin-left"></div>
+              <img className="image" src={depoente2} alt="primeiro depoente" />
+            </div>
 
-        <div className = "card margin-card">
-          <div className = "images"> 
-            <div className = "imgs-container">
-              <img className = "depoiment-img bottom-img" src = {depoente3} alt = "terceiro depoente"/>
-              <div className = "retangulo-laranja retangulo"> </div>
+            <div className="col-md-6 view-texto align-right">
+              <h5 className="titulo"> "Mudou minha vida” </h5>
+              <p className="texto">
+                " Ser reconhecida como uma instituição íntegra, onde voluntários
+                sintam-se seguros para destinar suas energias em prol de um bem
+                comum."
+              </p>
             </div>
           </div>
-          <div className = "card-body margin-body">
-            <h5 className = "card-title left"> "Mudou minha vida” </h5>
-            <p className = "card-text left"> Ser reconhecida como uma instituição íntegra, onde voluntários sintam-se seguros para destinar suas energias em prol de um bem comum. </p>
+          <div className="row justify-content-center d-flex depoimentos-view">
+            <div className="col-md-4 view-image">
+              <div className="square orange margin-left"></div>
+              <img className="image" src={depoente3} alt="primeiro depoente" />
+            </div>
+
+            <div className="col-md-6 view-texto">
+              <h5 className="titulo"> "Mudou minha vida” </h5>
+              <p className="texto">
+                " Ser reconhecida como uma instituição íntegra, onde voluntários
+                sintam-se seguros para destinar suas energias em prol de um bem
+                comum."
+              </p>
+            </div>
           </div>
         </div>
-    </section>
+      </div>
+    </div>
   );
 }
 
