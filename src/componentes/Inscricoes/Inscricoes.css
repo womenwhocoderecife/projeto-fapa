@@ -1,110 +1,109 @@
 * {
-    box-sizing: border-box;
-  } 
+  box-sizing: border-box;
+}
 
+/*
 .container {
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     justify-content: center;
     width: 100%;
-    min-height: 1400px; 
-    background-color: white;
+    min-height: 1400px;
     z-index: 0;
     padding-bottom: 50px;
     padding-top: 50px;
 }
+*/
 
 .card {
-    display: flex; 
-    flex-direction: column;
-    border: none;
+  display: flex;
+  flex-direction: column;
+  border: none;
 }
 
 .images {
-    width: 100%;
+  width: 100%;
 }
 
 .imgs-container {
-    width: 330px;
-    height: 452px;
-    max-width: 100%;
-    display: inline-flex;
+  width: 330px;
+  height: 452px;
+  max-width: 100%;
+  display: inline-flex;
 }
 
 .inscription-img {
-    position: absolute;  
-    height: 307px;	
-    width: 264px;
-    z-index: 2;
-    margin-right: 0;
-    margin-top: 0;
-    padding-right: 0;
-    padding-bottom: 0;
+  position: absolute;
+  height: 307px;
+  width: 264px;
+  z-index: 2;
+  margin-right: 0;
+  margin-top: 0;
+  padding-right: 0;
+  padding-bottom: 0;
 }
 
 .retangulo {
-    position: absolute;
-    height: 298px;
-    width: 275px;
-    z-index: 1;
-    margin-top: 145px;
-    margin-left: 55px;
-    max-width: 100%;
-    display: block;
-     
+  position: absolute;
+  height: 298px;
+  width: 275px;
+  z-index: 1;
+  margin-top: 145px;
+  margin-left: 55px;
+  max-width: 100%;
+  display: block;
 }
 
 .retangulo-amarelo {
-    background-color: #FFDA00;
+  background-color: #ffda00;
 }
 
 .retangulo-verde {
-    background-color: #A9D825;
+  background-color: #a9d825;
 }
 
 .retangulo-laranja {
-    background-color: #FF822E;
+  background-color: #ff822e;
 }
 
 .txt {
-    color: #1B1B1B;
-    font-family: "Nunito";
+  color: #1b1b1b;
+  font-family: "Nunito";
 }
 
 .card-title {
-    height: 54px;
-	width: 100%;
-    font-style: normal;
-	font-size: 40px;
-	line-height: 54px;
-    text-align: left;
-    z-index: 2;
-    padding-top: 360px;
-    position: absolute;
+  height: 54px;
+  width: 100%;
+  font-style: normal;
+  font-size: 40px;
+  line-height: 54px;
+  text-align: left;
+  z-index: 2;
+  padding-top: 360px;
+  position: absolute;
 }
 
 .texto-inscricao {
-    height: 160px;	
-    width: 331px;		
-    font-size: 24px;	
-    font-weight: 600;	
-    line-height: 40px;
-    text-align: left;
+  height: 160px;
+  width: 331px;
+  font-size: 24px;
+  font-weight: 600;
+  line-height: 40px;
+  text-align: left;
 }
- .colaborar-button{
-     width: 229px;
-     height: 64px;
-     
- }
+.colaborar-button {
+  width: 229px;
+  height: 64px;
+}
 
- /*Small devices and Smartphones*/
- @media screen and (min-width: 480px){
-.card,
-.images,
-.card-title,
-.texto-inscricao {
+/*Small devices and Smartphones*/
+@media screen and (min-width: 480px) {
+  .card,
+  .images,
+  .card-title,
+  .texto-inscricao {
     width: 100%;
     text-align: center;
     align-self: center;
+  }
 }
- }

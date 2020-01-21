@@ -1,80 +1,74 @@
-.main{
-    background:  #FFFFFF;
-    text-align: center;
-    /*Border: 1px solid black;*/
-    padding-bottom: 100%;
-
+.main {
+  background: #ffffff;
+  text-align: center;
+  /*Border: 1px solid black;*/
+  padding-bottom: 100%;
 }
-.skills1{
-    Display: Flex;
-    flex-wrap: wrap;
-    align-items: center;
-    margin right: 10%;
-    margin left: 50%;
-    margin top: 5%;
-    margin bottom: 5%;
+.skills1 {
+  display: Flex;
+  flex-wrap: wrap;
+  align-items: center;
+  margin-right: 10%;
+  margin-left: 50%;
+  margin-left: 5%;
+  margin-block-end: 5%;
 
-    padding left: 7%;
-    padding right: 20%;
-    padding top: 70%;
-    padding bottom: 5%;
-    background:  #FFFFFF;
-
+  padding-right: 7%;
+  padding-right: 20%;
+  padding-top: 70%;
+  padding-bottom: 5%;
+  background: #ffffff;
 }
 .conteiner_box {
-    display: flex;
-    /* justify-content: center; */
-    width: 100%;
-    margin-top: 25px;
-    justify-content: space-evenly;
-    padding-bottom: 2%;
-    padding-right: 5%;
-    padding-left: 10%;
-
-
+  display: flex;
+  /* justify-content: center; */
+  width: 100%;
+  margin-top: 25px;
+  justify-content: space-evenly;
+  padding-bottom: 2%;
+  padding-right: 5%;
+  padding-left: 10%;
 }
-.box{
-    width: 50%;
-    margin-left: 3%;
-    padding: 25px;
-    background: #FFFFFF;
-    Display: Flex;
-    flex-direction: column;
-    justify-content: center;
-
-
+.box {
+  width: 50%;
+  margin-left: 3%;
+  padding: 25px;
+  background: #ffffff;
+  display: Flex;
+  flex-direction: column;
+  justify-content: center;
 }
-img{
-    width: 50px;
-    height: 90px;
+img {
+  width: 50px;
+  height: 90px;
 
-    /* Border: 1px solid black; */
+  /* Border: 1px solid black; */
 }
 
-.titulo_card{
-    font-size: 30px;
-    font-weight: 500;
-    justify-content: flex-start;
-    font-family: Nunito Regular;
-    font-style: normal;
+.titulo_card {
+  font-size: 30px;
+  font-weight: 500;
+  justify-content: flex-start;
+  font-family: Nunito Regular;
+  font-style: normal;
 
-    line-height: 100%;
-    color: black;
-    /* Border: 1px solid black; */
+  line-height: 100%;
+  color: black;
+  /* Border: 1px solid black; */
 }
-.texto_card{
-    width: 80%;
-    height: 10%;
-    font-size: ;
-    font-family: Nunito SemiBold;
+.texto_card {
+  width: 80%;
+  height: 10%;
+  font-size: ;
+  font-family: Nunito SemiBold;
 
-    color: black;
-    /* Border: 1px solid black; */
+  color: black;
+  /* Border: 1px solid black; */
 }
-.botao{
-    display: flex;
-    justify-content: center;
-    width: 100%;
-    margin-bottom: 25px;
-    margin-top: 25px;
+.botao {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  margin-bottom: 25px;
+  margin-top: 25px;
 }

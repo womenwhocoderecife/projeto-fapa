@@ -1,7 +1,7 @@
 * {
-    box-sizing: border-box;
-  }
-
+  box-sizing: border-box;
+}
+/*
 .container {
     display: flex;
     flex-direction: column;
@@ -12,234 +12,216 @@
     padding-bottom: 50px;
     padding-top: 50px;
 }
-
-
+*/
 .card {
-    width: 95%;
-    align-self: center;
-    display: flex;
-    flex-direction: row;
-    border-radius: 0;
-    border: none;
-    background-color: none;
+  width: 95%;
+  align-self: center;
+  display: flex;
+  flex-direction: row;
+  border-radius: 0;
+  border: none;
+  background-color: none;
 }
 
 .middle-card {
-    flex-wrap: wrap-reverse;
+  flex-wrap: wrap-reverse;
 }
 
 .margin-card {
-    flex-wrap: wrap;
+  flex-wrap: wrap;
 }
 
 .card-body {
-    color: #1B1B1B;
-    font-family: "Nunito";
-    font-style: normal;
-    width: 60%;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
+  color: #1b1b1b;
+  font-family: "Nunito";
+  font-style: normal;
+  width: 60%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
 }
 
 .margin-body {
-    padding-left: 5px;
+  padding-left: 5px;
 }
 
 .middle-body {
-    padding-right: 5px;
+  padding-right: 5px;
 }
 
-
 .card-title {
-    font-size: 24px;
-    height: 40px;
-    max-width: 400px;
-    font-weight: 600;
-    line-height: 40px;
-    padding: 0;
-    margin: 0;
+  font-size: 24px;
+  height: 40px;
+  max-width: 400px;
+  font-weight: 600;
+  line-height: 40px;
+  padding: 0;
+  margin: 0;
 }
 
 .card-text {
-    font-size: 16px;
-	  max-width: 400px;
-    line-height: 30px;
-    padding: 0;
-    margin: 0;
+  font-size: 16px;
+  max-width: 400px;
+  line-height: 30px;
+  padding: 0;
+  margin: 0;
 }
 
-
 .retangulo {
-    position: absolute;
-    height: 298px;
-    width: 275px;
-    z-index: 1;
-    margin-top: 92px;
-    max-width: 100%;
-    display: block;
-
+  position: absolute;
+  height: 298px;
+  width: 275px;
+  z-index: 1;
+  margin-top: 92px;
+  max-width: 100%;
+  display: block;
 }
 
 .retangulo-amarelo {
-    background-color: #FFDA00;
+  background-color: #ffda00;
 }
 
 .retangulo-verde {
-    background-color: #A9D825;
-    margin-left: 45px;
+  background-color: #a9d825;
+  margin-left: 45px;
 }
 
 .retangulo-laranja {
-    background-color: #FF822E;
+  background-color: #ff822e;
 }
 
 .right {
-    text-align: right;
+  text-align: right;
 }
 
 .left {
-    text-align: left;
+  text-align: left;
 }
 
 .depoiment-img {
-    position: absolute;
-    height: 307px;
-    width: 264px;
-    z-index: 2;
+  position: absolute;
+  height: 307px;
+  width: 264px;
+  z-index: 2;
 }
 
 .middle-img {
-    margin-right: 0;
-    margin-top: 0;
-    padding-right: 0;
-    padding-bottom: 0;
+  margin-right: 0;
+  margin-top: 0;
+  padding-right: 0;
+  padding-bottom: 0;
 }
 
-.top-img, .bottom-img {
-    margin-left: 56px;
-    margin-top: 0;
-    padding-left: 0;
-    padding-bottom: 0;
-
+.top-img,
+.bottom-img {
+  margin-left: 56px;
+  margin-top: 0;
+  padding-left: 0;
+  padding-bottom: 0;
 }
 
 .images {
-    width: 40%;
-    display: flex;
-    justify-content: space-around;
-    justify-items: auto;
+  width: 40%;
+  display: flex;
+  justify-content: space-around;
+  justify-items: auto;
 }
 
 .imgs-container {
-    width: 320px;
-    height: 390px;
-    max-width: 100%;
-    display: inline-flex;
-    /* background-color: black; */
+  width: 320px;
+  height: 390px;
+  max-width: 100%;
+  display: inline-flex;
+  /* background-color: black; */
 }
-
 
 /* Small devices - SMARTPHONES */
 
 @media screen and (max-width: 480px) {
-    .card-body,
-    .images,
-    .card-title,
-    .card-text {
-        width: 100%;
-        text-align: center;
-        align-self: center;
-    }
-    .card-body {
-        margin-top: 20px;
-        margin-bottom: 20px;
-    }
-    .card {
-        margin-top: 40px;
-    }
+  .card-body,
+  .images,
+  .card-title,
+  .card-text {
+    width: 100%;
+    text-align: center;
+    align-self: center;
+  }
+  .card-body {
+    margin-top: 20px;
+    margin-bottom: 20px;
+  }
+  .card {
+    margin-top: 40px;
+  }
 
-    .container {
-        padding-top: 20px;
-        padding-bottom: 20px;
-    }
+  /*.container {
+    padding-top: 20px;
+    padding-bottom: 20px;
+  }
+*/
+  .margin-body {
+    padding-left: 0;
+  }
 
-    .margin-body {
-        padding-left: 0;
-    }
-
-    .middle-body {
-        padding-right: 0;
-    }
-
+  .middle-body {
+    padding-right: 0;
+  }
 }
 
 /* Small devices - TABLETS */
 
 @media screen and (max-width: 768px) {
-    .card-body,
-    .images,
-    .card-title,
-    .card-text {
-        width: 100%;
-        text-align: center;
-        align-self: center;
-    }
-    .card-body {
-        margin-top: 20px;
-        margin-bottom: 20px;
-    }
-    .card {
-        margin-top: 40px;
-        margin-bottom: 40px;
-    }
+  .card-body,
+  .images,
+  .card-title,
+  .card-text {
+    width: 100%;
+    text-align: center;
+    align-self: center;
+  }
+  .card-body {
+    margin-top: 20px;
+    margin-bottom: 20px;
+  }
+  .card {
+    margin-top: 40px;
+    margin-bottom: 40px;
+  }
 
-    .container {
-        padding-top: 60px;
-        padding-bottom: 60px;
-    }
+  .margin-body {
+    padding-left: 0;
+  }
 
-    .margin-body {
-        padding-left: 0;
-    }
-
-    .middle-body {
-        padding-right: 0;
-    }
-
+  .middle-body {
+    padding-right: 0;
+  }
 }
 
 /* Medium devices - TABLETS AND DESKTOPS */
 
 @media screen and (max-width: 960px) {
-    .card-body,
-    .images,
-    .card-title,
-    .card-text {
-        width: 100%;
-        text-align: center;
-        align-self: center;
-    }
-    .card-body {
-        margin-top: 20px;
-        margin-bottom: 20px;
-    }
-    .card {
-        margin-top: 40px;
-        margin-bottom: 40px;
-    }
+  .card-body,
+  .images,
+  .card-title,
+  .card-text {
+    width: 100%;
+    text-align: center;
+    align-self: center;
+  }
+  .card-body {
+    margin-top: 20px;
+    margin-bottom: 20px;
+  }
+  .card {
+    margin-top: 40px;
+    margin-bottom: 40px;
+  }
 
-    .container {
-        padding-top: 60px;
-        padding-bottom: 60px;
-    }
+  .margin-body {
+    padding-left: 0;
+  }
 
-    .margin-body {
-        padding-left: 0;
-    }
-
-    .middle-body {
-        padding-right: 0;
-    }
-
+  .middle-body {
+    padding-right: 0;
+  }
 }
