@@ -25,7 +25,10 @@ function NavBarHome() {
 
     </div>
     <div className='color-NavButton'>
-   <Button variant="outline-light" className = "colaborar-button">Colabore Conosco</Button>
+      <a href='/junte-se'> <Button variant="outline-light" className = "colaborar-button">
+        Colabore Conosco
+      </Button>
+      </a>
    </div>
 
 </Navbar>

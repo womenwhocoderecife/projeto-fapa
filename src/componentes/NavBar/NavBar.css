@@ -1,10 +1,11 @@
 .Nav-brand {
   width: 4rem;
 }
-.App-logo {
+.App-colorida {
   width: 8rem;
-  height: 4rem;
+  height: 100px;
   margin: 0 1rem;
+  transform: rotate(90deg);
 }
 
 .icon {
