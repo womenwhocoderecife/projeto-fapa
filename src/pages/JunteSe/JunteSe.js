@@ -3,13 +3,15 @@ import "./JunteSe.css";
 
 import NavBar from "../../componentes/NavBar";
 import Inscricoes from "../../componentes/Inscricoes/Inscricoes";
+import Footer from "../../componentes/Footer/Footer";
+
 
 function JunteSe() {
   return (
     <div className="Junte-se">
-      <NavBar class="nav-bar w-100"></NavBar>
-      <div className="row nav-bar-space"></div>
+      <NavBar></NavBar>
       <Inscricoes></Inscricoes>
+      <Footer></Footer>
     </div>
   );
 }

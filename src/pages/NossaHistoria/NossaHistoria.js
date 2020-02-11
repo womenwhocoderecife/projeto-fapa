@@ -1,6 +1,8 @@
 import React from "react";
 import "./NossaHistoria.css";
 import NavBar from "../../componentes/NavBar";
+import Footer from "../../componentes/Footer/Footer";
+
 
 function NossaHistoria() {
   return (
@@ -15,37 +17,18 @@ function NossaHistoria() {
           <div className="row">
             <div className="col-md-5 p-0">
               <p className="texto">
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                Praesent faucibus iaculis ultricies. Aliquam sodales
-                pellentesque egestas. Morbi dictum dolor non diam tincidunt
-                posuere. Praesent sit amet purus ultrices enim malesuada
-                pharetra. Vivamus sit amet leo scelerisque, varius velit dictum,
-                accumsan ligula. Curabitur viverra egestas lectus at egestas.
-                Proin interdum mauris enim. Integer elementum feugiat tortor,
-                eget euismod neque tempus et.
+                Somos uma organização que desde 28 de agosto de 2016 vem agindo com o propósito de mobilização e articulação do voluntariado, buscando promover ações em prol da defesa e elevação da qualidade de vida e dos direitos do  ser humano.
               </p>
               <br></br>
               <p className="texto">
-                Duis sit amet libero at erat faucibus iaculis sit amet eget
-                nisl. Vivamus bibendum metus non eros gravida semper. Maecenas
-                ut magna et neque rhoncus ultricies vitae eget erat. Nam
-                fermentum vel ex in luctus. Pellentesque habitant morbi
-                tristique senectus et netus et malesuada fames ac turpis
-                egestas. Nunc non pellentesque felis. Integer luctus, eros vel
-                pulvinar pulvinar, risus mi tincidunt enim, non sagittis ante
-                risus sit amet sapien. Praesent ac mauris rutrum, eleifend quam
-                vel, fringilla metus.
+                A inquietude, a partir de uma consciência cívica existente, mas sub-utilizada, nos fez sair da inoperância e começar a FAZER ALGO POR ALGUÉM, algo para mudar uma situação adversa, algo que pudesse ser uma retribuição por tudo aquilo que recebemos para nos desenvolvermos, seja de iniciativa privada ou pública.
+                Hoje atuamos com centenas de voluntários e ajudamos milhares de pessoas.
               </p>
               <br></br>
               <p className="texto">
                 {" "}
-                Pellentesque ut nunc in lacus pretium ullamcorper ac vel est.
-                Curabitur non dapibus lectus, sed elementum est. Aenean feugiat
-                magna nisi, ac ultricies odio blandit et. Donec et eleifend
-                elit, sed scelerisque ex. Pellentesque ullamcorper rhoncus
-                ligula. Phasellus iaculis eu orci in viverra. Nulla lacus odio,
-                venenatis et rutrum eu, iaculis quis elit. Maecenas porttitor
-                posuere est in lobortis. Maecenas eget porttitor lacus.
+                Sabemos que é muito pouco o que fazemos, mas com a ajuda de outros FAPEIROS, conseguiremos ampliar ainda nossa atuação, sempre com os pés no chão, cientes que nosso trabalho é, como disse Madre Teresa de Calcutá,  "UMA GOTA NO OCEANO, MAS QUE SEM ELA, O OCEANO NÃO SERIA DO TAMANHO QUE É."
+                Que em todos os corações possam brotar a solidariedade e a certeza de que podemos ir além de nós mesmos.
               </p>
             </div>
             <div className="col-md-7 view-image">
@@ -55,6 +38,7 @@ function NossaHistoria() {
           </div>
         </div>
       </div>
+      <Footer></Footer>
     </div>
   );
 }
