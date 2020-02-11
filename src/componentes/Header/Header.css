@@ -102,6 +102,7 @@
   cursor: pointer;
 }
 
+
 @keyframes arrowloop {
   0% {
     bottom: 240px;
