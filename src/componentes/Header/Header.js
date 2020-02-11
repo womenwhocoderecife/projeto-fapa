@@ -1,7 +1,5 @@
 import React, { useState } from "react";
 import "./Header.css";
-import play from "../../assets/play_circle.svg";
-import YouTube from 'react-youtube';
 import ExpandMoreIcon from '@material-ui/icons/ExpandMore';
 import PlayCircleOutlineIcon from '@material-ui/icons/PlayCircleOutline';
 import Modal from 'react-bootstrap/Modal'
@@ -19,7 +17,7 @@ function Header() {
     <div className="header">
       <div className="video-fapa">
         <div className="video-fade"/>
-        <img src={require('../../assets/gif.gif')} />
+        <img src={require('../../assets/gif.gif')} alt="Gif do vídeo Ressureição sobre rodas"/>
         <ExpandMoreIcon className="arrow" onClick={scrollPage}></ExpandMoreIcon>
         <PlayCircleOutlineIcon className="play" onClick={() => setVideoShow(true)}></PlayCircleOutlineIcon>
       </div>
