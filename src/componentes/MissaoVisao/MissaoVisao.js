@@ -2,6 +2,7 @@ import React from "react";
 import Button from "react-bootstrap/Button";
 import "./MissaoVisao.css";
 import foguete from "../../assets/foguete.png";
+import olho from "../../assets/olho.png";
 
 function MissaoVisao() {
   return (
@@ -10,7 +11,7 @@ function MissaoVisao() {
         <div className="container">
           <div className="row justify-content-center d-flex missao-view">
             <div className="col-md-6">
-              <img src={foguete} ClassName="foguete" alt="foguete" />
+              <img src={olho} className="olho" alt="ícone de olho" />
               <h3 className="titulo_card">Visão</h3>
               <p className="texto_card">
                 Ser reconhecida como uma instituição íntegra, onde voluntários
@@ -19,7 +20,7 @@ function MissaoVisao() {
               </p>
             </div>
             <div className="col-md-6">
-              <img src={foguete} alt="foguete2" />
+              <img src={foguete} alt="ícone de foguete" />
               <h3 className="titulo_card"> Missão</h3>
               <p className="texto_card">
                 Desenvolver e apoiar ações para a defesa e elevação da qualidade
