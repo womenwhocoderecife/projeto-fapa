@@ -1,23 +1,17 @@
 [
-  { "id": 1, "titulo": "Doações de Sangue", "icon": "drop.svg" },
-  { "id": 2, "titulo": "Curso de Voluntários", "icon": "charity.svg" },
-  { "id": 3, "titulo": "Café Coletivo", "icon": "breakfast.svg" },
-  {
-    "id": 4,
-    "titulo": "Atuação na Comunidade Beira do Rio",
-    "icon": "comunity.svg"
-  },
-  { "id": 5, "titulo": "Carnaval das Antigas", "icon": "mask.svg" },
-  { "id": 6, "titulo": "Ressureição sobre Rodas", "icon": "acessibility.svg" },
-  { "id": 7, "titulo": "Dia das Mães", "icon": "mother.svg" },
-  {
-    "id": 8,
-    "titulo": "Dia das Crianças",
-    "icon": "rocking-horse.svg"
-  },
-  {
-    "id": 9,
-    "titulo": "Natal do Bem",
-    "icon": "natal.svg"
-  }
+  { "id": 1, "titulo": "Abraço na Alma", "icon": "hug.svg" },
+  { "id": 2, "titulo": "Carnaval das Antigas", "icon": "mask.svg" },
+  { "id": 3, "titulo": "3º Curso de Voluntários", "icon": "charity.svg" },
+  { "id": 4, "titulo": "Ressureição sobre rodas", "icon": "acessibility.svg" },
+  { "id": 5, "titulo": "Dia das Mães", "icon": "mother.svg" },
+  { "id": 6, "titulo": "FAPA PET", "icon": "dog.svg" },
+  { "id": 7, "titulo": "4º Curso de Voluntários", "icon": "charity.svg" },
+  { "id": 8, "titulo": "Doação de Sangue - Sangue do meu sangue", "icon": "drop.svg" },
+  { "id": 9, "titulo": "Setembro Amarelo", "icon": "mind.svg" },
+  { "id": 10, "titulo": "5º Curso de Voluntários", "icon": "charity.svg" },
+  { "id": 11,  "titulo": "Dia das Crianças", "icon": "rocking-horse.svg"},
+  { "id": 12, "titulo": "6º Curso de Voluntários", "icon": "charity.svg" },
+  { "id": 13, "titulo": "Natal do Bem", "icon": "natal.svg"},
+  { "id": 14, "titulo": "Café Coletivo", "icon": "breakfast.svg" },
+  { "id": 15, "titulo": "Atuação na Comunidade Beira do Rio", "icon": "comunity.svg"}
 ]

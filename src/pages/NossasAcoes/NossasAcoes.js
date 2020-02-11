@@ -4,6 +4,8 @@ import NavBar from "../../componentes/NavBar";
 import Acoes from "../../componentes/Acoes";
 import DetalhesAcoes from "../../componentes/DetalhesAcoes";
 import Acompanhe from "../../componentes/Acompanhe";
+import Footer from "../../componentes/Footer/Footer";
+
 
 function NossasAcoes() {
   return (
@@ -26,7 +28,8 @@ function NossasAcoes() {
 
         <DetalhesAcoes />
       </div>
-      <Acompanhe />
+      <Acompanhe/>
+      <Footer></Footer>
     </div>
   );
 }
