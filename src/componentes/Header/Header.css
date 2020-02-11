@@ -2,11 +2,12 @@
   box-sizing: border-box;
 }
 
-.header-laranja {
+.header{
   display: flex;
+  flex-direction: column;
   background-color: #ff822e;
-  width: 74.5%;
-  height: 669px;
+  width: 100%;
+  height: 650px;
   padding: 0;
   margin: 0;
 }
@@ -19,45 +20,99 @@
 }
 
 .faca-algo-por-alguem {
-  color: white;
+  color: black;
   font-family: "Nunito";
   font-size: 56px;
   font-weight: bold;
   line-height: 73px;
+  position: relative;
+  bottom: 480px;
+  left: 20px;
+  z-index: 2;
+  color: white;
+  text-shadow: 1px 1px black;
 }
 
 .ong-sem-fins-lucrati {
-  color: white;
+  color: black;
   font-family: "Nunito";
   font-size: 16px;
   line-height: 30px;
+  position: relative;
+  bottom: 485px;
+  left: 20px;
+  z-index: 2;
+  color: white;
+  text-shadow: 1px 1px black;
 }
 
 .video-fapa {
   display: flex;
   flex-direction: column;
   align-items: center;
-  height: 600px;
-  width: 1468px;
-  margin-left: 442px;
-  margin-right: 150px;
-  margin-top: 85px;
+  margin-top: 6rem;
 }
 
-.assista-o-video-comp {
-  display: flex;
-  align-self: flex-start;
-  margin-top: 16px;
-  color: #1b1b1b;
-  font-family: "Nunito";
-  font-size: 16px;
-  line-height: 30px;
+.video-fade {
+  background-color: #ff822e;
+  opacity: 0.4;
+  position: absolute;
+  z-index: 1;
+  width: 100%;
+  height: 735px;
 }
+
+.video-fapa img {
+  width: 100%;
+  height: 735px;
+  position: relative;
+  bottom: 90px;
+}
+
 
 .img {
-  height: 24px;
-  width: 24px;
-  margin-left: 4px;
-  margin-top: 3px;
-  align-self: flex-start;
+  position: absolute;
+  height: 44px;
+  width: 50px;
+  margin-left: 380px;
+  margin-top: 0px;
+}
+
+.frame {
+  width: 100%;
+  height: 555px;
+}
+
+.arrow {
+  color: white;
+  position: relative;
+  bottom: 240px;
+  font-size: 50px !important;
+  z-index: 2;
+  animation: arrowloop 0.8s linear infinite;
+  cursor: pointer;
+}
+
+.play {
+  color: white;
+  position: relative;
+  bottom: 530px;
+  font-size: 75px !important;
+  z-index: 2;
+  cursor: pointer;
+}
+
+@keyframes arrowloop {
+  0% {
+    bottom: 240px;
+  }
+
+  50% {
+    bottom: 250px;
+  }
+
+  100% {
+    bottom: 240px;
+  }
+
 }

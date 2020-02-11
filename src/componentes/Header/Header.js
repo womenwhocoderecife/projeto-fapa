@@ -1,33 +1,31 @@
 import React from "react";
 import "./Header.css";
 import play from "../../assets/play_circle.svg";
-//import frame from "../../assets/video-frame.png"
+import YouTube from 'react-youtube';
+import video from "../../assets/institucional-video.mp4"
+import ExpandMoreIcon from '@material-ui/icons/ExpandMore';
+import PlayCircleOutlineIcon from '@material-ui/icons/PlayCircleOutline';
 
 function Header() {
+
+  function scrollPage() {
+    window.scroll({
+      top: 530,
+      left: 0,
+      behavior: 'smooth'
+    })
+  }
+
   return (
-    <div className="header-laranja">
-      <div className="fapa-card">
-        <p className="faca-algo-por-alguem"> Faça Algo Por Alguém </p>
-        <p className="ong-sem-fins-lucrati"> ONG sem fins lucrativos </p>
+    <div className="header">
+      <div className="video-fapa">
+        <div className="video-fade"/>
+        <img src={require('../../assets/gif.gif')} />
+        <ExpandMoreIcon className="arrow" onClick={scrollPage}></ExpandMoreIcon>
+        <PlayCircleOutlineIcon className="play"></PlayCircleOutlineIcon>
       </div>
-      <div class="video-fapa">
-        <iframe
-          title="Video do Youtube"
-          width="808"
-          height="480"
-          src="https://www.youtube.com/embed/wFvku4Dyp9g"
-          frameborder="0"
-          autoplay="1"
-          controls="0"
-        ></iframe>
-        <a
-          href="https://www.youtube.com/embed/wFvku4Dyp9g"
-          className="assista-o-video-comp"
-        >
-          Assistir vídeo completo
-          <img className="img" src={play} alt="Play icon" />
-        </a>
-      </div>
+      <p className="faca-algo-por-alguem"> Faça Algo Por Alguém </p>
+      <p className="ong-sem-fins-lucrati"> ONG sem fins lucrativos </p>
     </div>
   );
 }
