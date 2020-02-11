@@ -7,12 +7,12 @@ function Footer() {
         <div className  = "container">
             <div className = "row h-100 w-100 d-flex justify-content-center align-items-center">
               <div className = "col-md-5">
-                  <span> <FaInstagram className = "icon" /> @facaalgoporalguem</span>
+                  <a href='https://www.instagram.com/facaalgoporalguem/'> <FaInstagram className = "icon"/> facaalgoporalguem</a>
                   <br></br>
                   <span> <FaPhone className = "icon" /> (81) 9.9878.0508</span>
               </div>
               <div className = "col-md-4">
-                  <span><FaMailBulk className = "icon" /> facaalgoporalguem@gmail.com</span>
+                  <a href="mailto:facaalgoporalguem@gmail.com?subject=contatopelosite" target="_top"><FaMailBulk className = "icon" /> facaalgoporalguem@gmail.com</a>
                   <br></br>
                   <span><FaAddressCard className = "icon" /> CNPJ: 472891902948</span>
               </div>

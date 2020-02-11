@@ -15,6 +15,14 @@
     margin-left: 0.5rem;
 }
 
+a:link, a:visited {
+  font-family: 'Nunito', sans-serif;
+  font-size: 1rem;
+  color: #1B1B1B;
+  text-decoration: none;
+  cursor: auto;
+}
+
 @media screen and (max-width: 991px) {
     .Footer .row{
         flex-direction: inherit;
