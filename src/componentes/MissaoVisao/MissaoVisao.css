@@ -1,3 +1,7 @@
+.MissaoVisao {
+  position: relative;
+  z-index: 2;
+}
 .MissaoVisao .container-fluid {
   background-color: white;
   padding: 1rem;
