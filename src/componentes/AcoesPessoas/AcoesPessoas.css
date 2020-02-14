@@ -62,3 +62,14 @@ h2 {
   background-color: #ff822e !important;
   color: white !important;
 }
+
+.carousel-indicators {
+  bottom:-50px !important;
+}
+
+.carousel-indicators li{
+  border-radius:50% !important;
+  height: 10px !important;
+  width: 10px !important;
+  background-color: #ff822e !important;
+}
