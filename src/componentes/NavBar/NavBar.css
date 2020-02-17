@@ -18,6 +18,9 @@
 .navbar-toggler:focus {
   outline: 0;
 }
+/*.navbar-toggler{
+  border: 1px solid white !important;
+}*/
 
 .line {
   border-left: 0.1rem solid lightgrey;
@@ -40,16 +43,23 @@
 }
 
 .colaborar-button {
-  margin: 0 1rem;
+  margin: 0.1rem 1rem;
   height: 4rem;
-  color: #ff822e !important;
+  color: #FF822E !important;
   font-family: "Nunito", sans-serif !important;
   border-radius: 2rem !important;
-  border: 1px solid #ff822e !important;
+  border: 1px solid #FF822E !important;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  padding: 0 2rem;
+  line-height: 22px;
+  font-weight: bold;
+  background-color: white;
 }
 
 .colaborar-button:hover {
-  background-color: #ff822e !important;
+  background-color: #FF822E !important;
   color: white !important;
 }
 @media screen and (max-width: 991px) {
