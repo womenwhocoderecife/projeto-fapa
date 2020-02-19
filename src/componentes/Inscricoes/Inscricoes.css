@@ -80,3 +80,19 @@
   background-color: #ff822e !important;
   color: white !important;
 }
+
+@media screen and (max-width: 1024px) {
+  .Inscricoes {
+    height: 500vh;
+  }
+  .container-inscrições {
+    flex-direction: column;
+    height: 500vh;
+    justify-content: space-evenly;
+  }
+
+  .Inscricoes .square {
+      max-height: 20%;
+      margin-bottom: 4rem;
+  }
+}
