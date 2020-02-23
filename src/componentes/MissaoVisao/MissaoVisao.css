@@ -1,3 +1,7 @@
+.MissaoVisao {
+  position: relative;
+  z-index: 2;
+}
 .MissaoVisao .container-fluid {
   background-color: white;
   padding: 1rem;
@@ -34,4 +38,8 @@
 .saiba-mais-button:hover {
   background-color: #ff822e !important;
   color: white !important;
+}
+
+.olho {
+  width: 80px;
 }

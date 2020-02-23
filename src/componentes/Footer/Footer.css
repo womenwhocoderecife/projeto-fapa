@@ -1,5 +1,4 @@
 .Footer .container{
-    z-index: 3;
     padding: 2rem;
     margin-top: 1rem;
     min-height: 0;
@@ -15,9 +14,13 @@
     font-size: 1rem;
     margin-left: 0.5rem;
 }
-.Footer .icon{
-    margin-right: 1rem;
-    width: 1rem;
+
+a:link, a:visited {
+  font-family: 'Nunito', sans-serif;
+  font-size: 1rem;
+  color: #1B1B1B;
+  text-decoration: none;
+  cursor: auto;
 }
 
 @media screen and (max-width: 991px) {

@@ -9,14 +9,14 @@ function NavBarHome() {
   return (
     <Navbar className="nav-container nav_color p-0"  expand="lg">
     <div className="nav-container-fluid " >
-    <Navbar.Toggle aria-controls="basic-navbar-nav" />
+    <Navbar.Toggle className="navbar-toggler" aria-controls="basic-navbar-nav" />
 
     <Navbar.Brand href="/">
         <img src={logo} className="App-logo" alt="logo" />
     </Navbar.Brand>
 
     <Navbar.Collapse id="basic-navbar-nav ">
-      <Nav className="mr-auto">
+      <Nav className="mr-auto1">
        <Nav.Link className = "nav-bar-item " href="/sobre-nos">Sobre Nós</Nav.Link>
        <Nav.Link className = "nav-bar-item " href="/nossas-acoes">Nossas Ações</Nav.Link>
        <Nav.Link className = "nav-bar-item" href="/junte-se">Junte-se</Nav.Link>
@@ -24,8 +24,11 @@ function NavBarHome() {
    </Navbar.Collapse>
 
     </div>
-    <div className='color-NavButton'>
-   <Button variant="outline-light" className = "colaborar-button">Colabore Conosco</Button>
+    <div >
+      <a href='/junte-se'> <Button variant="outline-light" className = "colaborar-button">
+        Colabore Conosco
+  </Button>
+      </a>
    </div>
 
 </Navbar>

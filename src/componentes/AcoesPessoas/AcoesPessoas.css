@@ -2,7 +2,6 @@
 
 .container-alcance {
   background-color: rgba(169, 216, 37, 0.1);
-
   width: 100%;
   padding: 1rem 0;
 }
@@ -41,12 +40,7 @@ h2 {
   /*height: 633px;
   width: 1139px;*/
 }
-.botao {
-  display: flex;
-  justify-content: center;
-  width: 213px;
-  padding: 24px 21px 24px;
-}
+
 .container-alcance .nossas-acoes-button {
   height: 3.5rem;
   color: #ff822e !important;
@@ -61,4 +55,26 @@ h2 {
 .nossas-acoes-button:hover {
   background-color: #ff822e !important;
   color: white !important;
+}
+
+.carousel-indicators {
+  bottom:-50px !important;
+}
+
+.carousel-indicators li{
+  border-radius:50% !important;
+  height: 10px !important;
+  width: 10px !important;
+  background-color: #ff822e !important;
+}
+
+@media only screen and (max-device-width: 900px) {
+  .sub-num {
+   text-align: center;
+  }
+  
+  .nossas-acoes-button {
+    margin-top: 40px;
+  }
+    
 }

@@ -1,17 +1,18 @@
+.NossaHistoria {
+  background-color: white;
+}
 .NossaHistoria .container {
   width: 100%;
   height: 100%;
   margin-top: 0;
   padding: 0 1.875rem;
-  background-color: #f5f6f7;
+  margin-bottom: 98px;
 }
 .NossaHistoria .nav-bar-space {
   height: 6rem;
   border: solid 1px black;
 }
-.NossaHistoria .container-fluid {
-  background-color: #f5f6f7;
-}
+
 .NossaHistoria .titulo {
   font-family: "Nunito", sans-serif;
   font-weight: 700;
@@ -31,7 +32,7 @@
   max-width: 90%;
   height: 40rem;
   background-color: #a9d825;
-  margin-top: 6.25rem;
+  margin-top: 6rem;
   position: absolute;
   right: 0;
 }

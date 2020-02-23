@@ -1,21 +1,32 @@
-.Inscricoes .container-fluid {
-  background-color: white;
-  padding: 4rem 0 !important;
+.Inscricoes {
+  height: 130vh;
 }
-
 .Inscricoes .square {
-  width: 15rem;
+  width: 35rem;
   max-width: 90%;
   height: 16rem;
-  position: absolute;
   margin-top: 4rem;
 }
 
-.Inscricoes .yellow {
-  background-color: #ffda00;
+.container-inscrições {
+  display: flex;
+  justify-content: space-between;
+  background-color: white;
+  padding: 4rem 0 !important;
+
 }
-.Inscricoes .inscricoes-view {
-  padding-top: 2.5rem;
+
+.shadow-right-orange {
+  box-shadow: 25px 95px #FF822E;
+}
+
+.shadow-right-green {
+  box-shadow: 25px 95px #A9D825;
+}
+
+
+.shadow-right-yellow {
+  box-shadow: 25px 95px #FFDA00;;
 }
 
 .Inscricoes .image {
@@ -27,62 +38,61 @@
   background-color: black;
 }
 
-.Inscricoes .margin-left {
-  margin-left: 2rem;
-}
-.Inscricoes .view {
-  margin: 0.5rem 0.25rem;
-  display: flex;
-  flex-direction: column;
-}
 .Inscricoes .texto {
   display: flex;
+  font-family: "Nunito";
   flex-direction: column;
-
+  font-weight: 600;
+  font-size: 24px;
   align-self: center;
   z-index: 2;
   position: relative;
+  height: 170px;
 }
 
 .Inscricoes .titulo {
   font-size: 2.3rem;
   color: #1b1b1b;
   font-family: "Nunito";
-  font-weight: 400;
+  font-weight: 200;
   width: 100%;
   z-index: 2;
-  position: inherit;
+  position: relative;
+  z-index: 2;
   margin: 1rem;
   text-align: center;
 }
 
-.Inscricoes .green {
-  background-color: #a9d825;
-}
-
-.Inscricoes .orange {
-  background-color: #ff822e;
-}
-
-.Inscricoes .reverse {
-  flex-direction: row-reverse;
-}
-
-.Inscricoes .align-right {
-  text-align: right !important;
-}
 
 .Inscricoes .voluntario-button {
   margin: 0 1rem;
   height: 4rem;
-  color: #ff822e !important;
+  color: #FF822E !important;
   font-family: "Nunito", sans-serif !important;
   border-radius: 2rem !important;
   border: 1px solid #ff822e !important;
   text-align: center;
+  font-weight: bold;
+  font-size: 16px;
 }
 
 .Inscricoes .voluntario-button:hover {
   background-color: #ff822e !important;
   color: white !important;
+}
+
+@media screen and (max-width: 1024px) {
+  .Inscricoes {
+    height: 500vh;
+  }
+  .container-inscrições {
+    flex-direction: column;
+    height: 500vh;
+    justify-content: space-evenly;
+  }
+
+  .Inscricoes .square {
+      max-height: 20%;
+      margin-bottom: 4rem;
+  }
 }

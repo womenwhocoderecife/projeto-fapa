@@ -6,18 +6,20 @@
   align-items: center;
 }
 .JunteSe .titulo {
-  font-size: 3.5rem;
-  color: white;
+  font-size: 56px;
+  color: black;
   font-family: "Nunito";
   font-style: normal;
   margin: 0.5rem 0 2rem;
   text-align: center;
+  font-weight: bold;
+  line-height: 73px;
 }
 
 .JunteSe .junte-se-button {
   height: 3.5rem;
   background-color: white;
-  color: #ff822e !important;
+  color: black !important;
   font-family: "Nunito", sans-serif !important;
   border-radius: 2rem !important;
   border: 1px solid white !important;
@@ -25,9 +27,11 @@
   display: flex;
   align-items: center;
   padding: 0 2rem;
+  line-height: 22px;
+  font-weight: bold;
 }
 
 .JunteSe .junte-se-button:hover {
-  background-color: #ffda00 !important;
+  background-color: #FF822E !important;
   color: white !important;
 }

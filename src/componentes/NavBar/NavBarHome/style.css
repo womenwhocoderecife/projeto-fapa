@@ -9,9 +9,19 @@
 }
 
 .color-NavButton {
-  background-color: white;
-  width: 35%;
+  margin: 0 1rem;
+  height: 4rem;
+  color: #FF822E !important;
+  font-family: "Nunito", sans-serif !important;
+  border-radius: 2rem !important;
+  border: 1px solid #FF822E !important;
   text-align: center;
+  display: flex;
+  align-items: center;
+  padding: 0 2rem;
+  line-height: 22px;
+  font-weight: bold;
+  background-color: white;
 }
 
 .icon {
@@ -40,7 +50,7 @@
 }
 
 .nav_color {
-  background-color: white;
+  background-color: #ff822e;
 }
 
 .row {
@@ -59,8 +69,12 @@
     display: contents !important;
   }
   .navbar-collapse {
-    background-color: white !important;
+    background-color:#ff822e !important;
     border-bottom: 1px solid lightgray;
+  }
+  .mr-auto1{
+    background-color: #FF822E !important;
+    
   }
 }
 
