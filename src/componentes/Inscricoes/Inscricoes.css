@@ -83,16 +83,17 @@
 
 @media screen and (max-width: 1024px) {
   .Inscricoes {
-    height: 500vh;
+    height: 420vh;
   }
   .container-inscrições {
     flex-direction: column;
-    height: 500vh;
+    height: 300vh;
     justify-content: space-evenly;
   }
 
   .Inscricoes .square {
       max-height: 20%;
-      margin-bottom: 4rem;
+      height: 9rem;
+      margin-top: 30rem;
   }
 }

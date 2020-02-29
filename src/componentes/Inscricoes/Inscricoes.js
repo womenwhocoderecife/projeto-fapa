@@ -1,8 +1,9 @@
 import React from "react";
 import "./Inscricoes.css";
-import voluntario1 from "../../assets/fapa-depoente-homem-negro.jpg";
-import voluntario2 from "../../assets/fapa-depoente-mulher.jpg";
-import voluntario3 from "../../assets/fapa-depoente-homem-branco.jpg";
+import voluntario1 from "../../assets/Edilma.jpg";
+import voluntario4 from "../../assets/Poliana Afonso.jpg";
+import voluntario3 from "../../assets/Felipe.jpg";
+import voluntario2 from "../../assets/Luciene.jpg";
 import Button from "react-bootstrap/Button";
 
 function Inscricoes() {
@@ -50,7 +51,7 @@ function Inscricoes() {
           </div>
 
           <div className="square">
-            <img className="image shadow-right-orange" src={voluntario3} alt="" />
+            <img className="image shadow-right-orange" src={voluntario4} alt="" />
             <h1 className="titulo">Voluntário Missionário</h1>
             <p className="texto">
               Voluntário que vive dia e noite pensando e agindo nos projetos desenvolvidos pela ONG.
