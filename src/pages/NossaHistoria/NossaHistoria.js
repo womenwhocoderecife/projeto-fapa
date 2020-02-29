@@ -2,7 +2,7 @@ import React from "react";
 import "./NossaHistoria.css";
 import NavBar from "../../componentes/NavBar";
 import Footer from "../../componentes/Footer/Footer";
-
+import eduardo from "../../assets/nossa história.jpeg"
 
 function NossaHistoria() {
   return (
@@ -32,8 +32,7 @@ function NossaHistoria() {
               </p>
             </div>
             <div className="col-md-7 view-image">
-              <div className="square-green"></div>
-              <div className="image"></div>
+              <img className="image square-green" src={eduardo} alt="Eduardo" />
             </div>
           </div>
         </div>
