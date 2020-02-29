@@ -5,6 +5,7 @@ import Carousel from "react-bootstrap/Carousel";
 import faparoda from "../../assets/fapa-roda.jpg";
 import idoso from "../../assets/fapa-idoso.jpg";
 import lindu from "../../assets/fapa-lindu.jpg";
+import abraco from "../../assets/abraco.jpg"
 import Button from "react-bootstrap/Button";
 
 function AcoesPessoas() {
@@ -25,17 +26,16 @@ function AcoesPessoas() {
 
       <Carousel>
         <Carousel.Item>
-          <img
-            className="d-block w-100 h-100"
-            src={faparoda}
-            alt="First slide"
-          />
+          <img className="d-block w-100 h-100" src={abraco} alt="First slide"/>
         </Carousel.Item>
         <Carousel.Item>
-          <img className="d-block w-100 h-100" src={idoso} alt="Third slide" />
+          <img className="d-block w-100 h-100" src={idoso} alt="Second slide"/>
         </Carousel.Item>
         <Carousel.Item>
-          <img className="d-block w-100 h-100" src={lindu} alt="Third slide" />
+          <img className="d-block w-100 h-100" src={lindu} alt="Third slide"/>
+        </Carousel.Item>
+        <Carousel.Item>
+          <img className="d-block w-100 h-100" src={faparoda} alt="Fourth slide"/>
         </Carousel.Item>
       </Carousel>
       <div className="row d-flex justify-content-center">
