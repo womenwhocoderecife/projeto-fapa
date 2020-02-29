@@ -13,8 +13,6 @@ function NavBar() {
     <Navbar.Brand href="/">
         <img src={logo} className="App-colorida" alt="logo" />
     </Navbar.Brand>
-
-
     <Navbar.Collapse id="basic-navbar-nav">
       <Nav className="mr-auto">
        <Nav.Link className = "nav-bar-item " href="/sobre-nos">Sobre Nós</Nav.Link>
@@ -22,13 +20,11 @@ function NavBar() {
        <Nav.Link className = "nav-bar-item" href="/junte-se">Junte-se</Nav.Link>
      </Nav>
    </Navbar.Collapse>
-  <a href='/junte-se'> <Button variant="outline-light" className = "colaborar-button">
-     Colabore Conosco
-      </Button>
-     </a>
+  <a href='/junte-se'>
+    <Button variant="outline-light" className = "colaborar-button">Colabore Conosco</Button>
+  </a>
     </div>
-
-</Navbar>
+  </Navbar>
   );
 }
 

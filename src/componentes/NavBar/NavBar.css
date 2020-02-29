@@ -1,6 +1,7 @@
 .Nav-brand {
   width: 4rem;
 }
+
 .App-colorida {
   width: 8rem;
   height: 100px;
@@ -12,15 +13,14 @@
   color: gray;
   margin: 1rem 0.5rem 1rem;
 }
+
 .icon:hover {
   color: #007bff;
 }
+
 .navbar-toggler:focus {
   outline: 0;
 }
-/*.navbar-toggler{
-  border: 1px solid white !important;
-}*/
 
 .line {
   border-left: 0.1rem solid lightgrey;
@@ -28,6 +28,7 @@
   margin: 0 -0.5rem 0;
   position: absolute;
 }
+
 .nav-bar {
   margin-right: 1.5rem;
 }
@@ -35,9 +36,11 @@
 .white-color {
   background-color: white;
 }
+
 .gray-light-color {
   background-color: #f5f6f7;
 }
+
 .row {
   display: flex;
 }
@@ -62,6 +65,8 @@
   background-color: #FF822E !important;
   color: white !important;
 }
+
+
 @media screen and (max-width: 991px) {
   .line {
     display: none;
@@ -87,6 +92,7 @@
 .navbar {
   justify-content: space-around;
 }
+
 .nav-container-fluid {
   width: 100%;
   justify-content: center;
@@ -95,6 +101,7 @@
   align-items: center;
   padding: 2rem 2.375rem;
 }
+
 .nav-container {
   position: fixed;
   top: 0;
@@ -103,6 +110,7 @@
   padding: 0;
   height: 6rem;
 }
+
 .nav-bar-item {
   font-size: 1rem;
   font-family: "Nunito", sans-serif;
@@ -110,9 +118,11 @@
   margin: 0 2rem;
   font-weight: bold;
 }
+
 .nav-bar-item:hover {
   font-weight: 700;
 }
+
 .active {
   font-weight: 700;
 }
