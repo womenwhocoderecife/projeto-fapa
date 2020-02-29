@@ -1,30 +1,65 @@
 [
   {
     "id": 1,
-    "titulo": "Acao 1",
-    "resumo": "Acao 1 Make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged.",
+    "titulo": "Abraço na alma",
+    "resumo": "É o momento de contato com outro ser humano, a possibilidade de aproximar um coração do outro. Nessa ação é deixada uma rosa nas mãos e um abraço apertado é dado, mas não só no corpo, na alma também.",
     "texto": "Acao 1 Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.   It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English. Many desktop publishing packages and web page editors now use Lorem Ipsum as their default model text, and a search for 'lorem ipsum' will uncover many web sites still in their infancy. Various versions have evolved over the years, sometimes by accident, sometimes on purpose (injected humour and the like).",
-    "image": "drop.svg"
+    "image": "Abraço na alma.jpg"
   },
   {
     "id": 2,
-    "titulo": "Acao 2 Doações de Sangue",
-    "resumo": "Acao 2 Make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged.",
+    "titulo": "Carnaval das antigas",
+    "resumo": "Uma chance de aprender a dançar e se divertir com quem tem experiência no assunto. Um dia de muita alegria e de impacto estrutural também, sempre é atendida uma necessidade do lar geriátrico.",
     "texto": "Acao 2 Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.   It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English. Many desktop publishing packages and web page editors now use Lorem Ipsum as their default model text, and a search for 'lorem ipsum' will uncover many web sites still in their infancy. Various versions have evolved over the years, sometimes by accident, sometimes on purpose (injected humour and the like).",
-    "image": "drop.svg"
+    "image": "carnaval das antigas.JPG"
   },
   {
-    "id": 31,
-    "titulo": "Acao 3 Doações de Sangue",
-    "resumo": "Acao 3 Make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged.",
+    "id": 3,
+    "titulo": "Curso de voluntários",
+    "resumo": "Capacitar e empoderar novos trabalhadores do bem, esses que são chamados de FAPEIROS, é preparar novos conscientes amantes da vida. Saber a origem da ONG FAPA, conhecer as ações,  incutir sua missão e valores, além de entender os objetivos futuros, são necessários para tomar a decisão de vestir a camisa do amor.",
     "texto": "Acao 3 Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.   It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English. Many desktop publishing packages and web page editors now use Lorem Ipsum as their default model text, and a search for 'lorem ipsum' will uncover many web sites still in their infancy. Various versions have evolved over the years, sometimes by accident, sometimes on purpose (injected humour and the like).",
-    "image": "drop.svg"
+    "image": "curso de voluntário.jpeg"
   },
   {
     "id": 4,
-    "titulo": "Acao 4 Doações de Sangue",
-    "resumo": "Acao 4 Make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged.",
+    "titulo": "Ressureição sobre rodas",
+    "resumo": "Doar cadeiras de rodas para quem está impossibilitado de explorar o mundo à sua volta é ajudar a ressuscitar seus sonhos, permitir que faça valer um direito de todos, o de ir e vir.",
     "texto": "Acao 4 Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.   It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English. Many desktop publishing packages and web page editors now use Lorem Ipsum as their default model text, and a search for 'lorem ipsum' will uncover many web sites still in their infancy. Various versions have evolved over the years, sometimes by accident, sometimes on purpose (injected humour and the like).",
-    "image": "drop.svg"
+    "image": "Resurreição sobre rodas.jpg"
+  },
+  {
+    "id": 5,
+    "titulo": "Sangue do meu sangue",
+    "resumo": "Somos humanos, somos irmãos. Um indivíduo que doa sangue beneficia de 3 a 4 outras pessoas. E é nesse momento um pouco de si estará dentro de outro alguém ajudando a salvar sua vida. É o ápice da conexão humana.",
+    "texto": "Acao 4 Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.   It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English. Many desktop publishing packages and web page editors now use Lorem Ipsum as their default model text, and a search for 'lorem ipsum' will uncover many web sites still in their infancy. Various versions have evolved over the years, sometimes by accident, sometimes on purpose (injected humour and the like).",
+    "image": "sangue do meu sangue.JPG"
+  },
+  {
+    "id": 6,
+    "titulo": "Dia das crianças",
+    "resumo": "A base, o futuro, a transformação de uma sociedade está nas crianças. Formá-las com princípios colaborativos, pautados no amor e na solidariedade possibilitará mudar o mundo. É realizada uma grande festa voltada para esses pequeninos, repleta de brincadeiras e atividades com um único objetivo, levar um sorriso para cada rostinho.",
+    "texto": "Acao 4 Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.   It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English. Many desktop publishing packages and web page editors now use Lorem Ipsum as their default model text, and a search for 'lorem ipsum' will uncover many web sites still in their infancy. Various versions have evolved over the years, sometimes by accident, sometimes on purpose (injected humour and the like).",
+    "image": "Dia das crianças.jpg"
+  },
+  {
+    "id": 7,
+    "titulo": "Natal do bem",
+    "resumo": "A celebração do nascimento de Cristo em uma linda ceia de natal para 3.000 pessoas em situação de rua. Comunhão, humildade, solidariedade e muito amor estão presentes nessa data tão revigorante para o espírito de cada ser humano envolvido",
+    "texto": "Acao 4 Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.   It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English. Many desktop publishing packages and web page editors now use Lorem Ipsum as their default model text, and a search for 'lorem ipsum' will uncover many web sites still in their infancy. Various versions have evolved over the years, sometimes by accident, sometimes on purpose (injected humour and the like).",
+    "image": "natal de bem.jpeg"
+  },
+  {
+    "id": 8,
+    "titulo": "Café coletivo",
+    "resumo": "As pessoas são convidadas para tomar café da manhã juntas. Não existe maior íntima  vivência do que partilhar a primeira refeição do dia. E não só isso, são desenvolvidas inúmeras atividades para crianças e seus familiares das 9h às 17h. Ocorre todo primeiro domingo de cada mês no parque dona lindu.",
+    "texto": "Acao 4 Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.   It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English. Many desktop publishing packages and web page editors now use Lorem Ipsum as their default model text, and a search for 'lorem ipsum' will uncover many web sites still in their infancy. Various versions have evolved over the years, sometimes by accident, sometimes on purpose (injected humour and the like).",
+    "image": "café coletivo.jpeg"
+  },
+  {
+    "id": 9,
+    "titulo": "Atuação permanente na comunidade beira do rio",
+    "resumo": "O berço da ONG FAPA está no bairro de Boa viagem e é lá que estão concentradas as atenções e ações humanitárias. Modificar uma realidade adversa que está à sua volta deverá ser sempre o ponto de partida para uma transformação efetiva.",
+    "texto": "Acao 4 Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.   It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English. Many desktop publishing packages and web page editors now use Lorem Ipsum as their default model text, and a search for 'lorem ipsum' will uncover many web sites still in their infancy. Various versions have evolved over the years, sometimes by accident, sometimes on purpose (injected humour and the like).",
+    "image": "atuação permanente beira rio.jpeg"
   }
 ]
