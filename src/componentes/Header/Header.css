@@ -26,7 +26,7 @@
   font-weight: bold;
   line-height: 73px;
   position: relative;
-  bottom: 480px;
+  bottom: 500px;
   left: 20px;
   z-index: 2;
   color: white;
@@ -39,7 +39,7 @@
   font-size: 16px;
   line-height: 30px;
   position: relative;
-  bottom: 485px;
+  bottom: 508px;
   left: 20px;
   z-index: 2;
   color: white;
@@ -102,7 +102,6 @@
   cursor: pointer;
 }
 
-
 @keyframes arrowloop {
   0% {
     bottom: 240px;
@@ -115,5 +114,12 @@
   100% {
     bottom: 240px;
   }
+
+}
+
+@media screen and (max-width: 991px) {
+    .Footer span {
+      margin-left: 0rem;
+    }
 
 }

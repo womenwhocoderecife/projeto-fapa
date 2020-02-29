@@ -28,4 +28,8 @@ a:link, a:visited {
         flex-direction: inherit;
     }
 
+    .Footer span {
+      margin-left: 0rem;
+    }
+
 }
