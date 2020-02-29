@@ -1,9 +1,12 @@
 import React from "react";
 import "./Depoimentos.css";
 
-import depoente1 from "../../assets/fapa-depoente-homem-negro.jpg";
-import depoente2 from "../../assets/fapa-depoente-mulher.jpg";
-import depoente3 from "../../assets/fapa-depoente-homem-branco.jpg";
+import depoente1 from "../../assets/Karine Lima.jpg";
+import depoente2 from "../../assets/Luciene.jpg";
+import depoente3 from "../../assets/Edilma.jpg";
+import depoente4 from "../../assets/Geruza.jpg";
+import depoente5 from "../../assets/Felipe.jpg";
+import depoente6 from "../../assets/Poliana Afonso.jpg";
 
 function Depoimentos() {
   return (
@@ -14,7 +17,6 @@ function Depoimentos() {
             <div className="col-md-4 view-image">
               <img className="image shadow-left-yellow" src={depoente1} alt="primeiro depoente" />
             </div>
-
             <div className="col-md-6 view-texto align-left text-shadow-left">
               <h5 className="titulo"> Karine Lima </h5>
               <p className="texto">
@@ -22,11 +24,11 @@ function Depoimentos() {
               </p>
             </div>
           </div>
+
           <div className="row justify-content-center d-flex inscricoes-view reverse">
             <div className="col-md-4 view-image">
               <img className="image shadow-right-green" src={depoente2} alt="primeiro depoente" />
             </div>
-
             <div className="col-md-6 view-texto align-right text-shadow-right">
               <h5 className="titulo">Luciene Barros</h5>
               <p className="texto">
@@ -34,11 +36,11 @@ function Depoimentos() {
               </p>
             </div>
           </div>
+
           <div className="row justify-content-center d-flex inscricoes-view">
             <div className="col-md-4 view-image">
-              <img className="image shadow-right-orange" src={depoente3} alt="primeiro depoente" />
+              <img className="image shadow-left-orange" src={depoente3} alt="terceiro depoente" />
             </div>
-
             <div className="col-md-6 view-texto align-left">
               <h5 className="titulo"> Edilma Frazão </h5>
               <p className="texto">
@@ -46,23 +48,23 @@ function Depoimentos() {
               </p>
             </div>
           </div>
+
           <div className="row justify-content-center d-flex inscricoes-view reverse">
             <div className="col-md-4 view-image">
-              <img className="image shadow-right-yellow" src={depoente1} alt="primeiro depoente" />
+              <img className="image-adjust shadow-right-yellow" src={depoente4} alt="quarto depoente" />
             </div>
-
-            <div className="col-md-6 view-texto align-left  align-right text-shadow-right">
+            <div className="col-md-6 view-texto align-right text-shadow-right">
               <h5 className="titulo"> Geruza Leite </h5>
               <p className="texto">
                 "A Fapa pra mim é toda possibilidade de exercer minha melhor versão com alegria."
               </p>
             </div>
           </div>
+
           <div className="row justify-content-center d-flex inscricoes-view">
             <div className="col-md-4 view-image">
-              <img className="image shadow-left-orange" src={depoente2} alt="segundo depoente" />
+              <img className="image shadow-left-orange" src={depoente5} alt="quinto depoente" />
             </div>
-
             <div className="col-md-6 view-texto align-left text-shadow-left">
               <h5 className="titulo"> Felipe Júnior </h5>
               <p className="texto">
@@ -70,11 +72,11 @@ function Depoimentos() {
               </p>
             </div>
           </div>
+
           <div className="row justify-content-center d-flex inscricoes-view reverse">
             <div className="col-md-4 view-image">
-              <img className="image shadow-right-green" src={depoente3} alt="terceiro depoente" />
+              <img className="image shadow-right-green" src={depoente6} alt="sexto depoente" />
             </div>
-
             <div className="col-md-6 view-texto align-right text-shadow-right">
               <h5 className="titulo"> Poliana Afonso </h5>
               <p className="texto">

@@ -42,9 +42,14 @@
 
 
 .Depoimentos .shadow-right-yellow {
-  box-shadow: 55px 55px #FFDA00;;
+  box-shadow: 55px -55px #FFDA00;;
+
 }
 
+.image-adjust {
+  transform: rotate(90deg);
+  height: 200px
+}
 
 .Depoimentos .shadow-left-orange {
   box-shadow: -55px 55px #FF822E;
@@ -134,7 +139,7 @@
   display: flex;
   flex-direction: column;
   align-self: center;
-  
+
 }
 
 
@@ -152,7 +157,7 @@
 
 
 .Depoimentos .shadow-right-yellow {
-  box-shadow: 25px 55px #FFDA00;;
+  box-shadow: 25px -55px #FFDA00;;
 }
 
 
