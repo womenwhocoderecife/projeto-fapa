@@ -118,6 +118,7 @@
   .Depoimentos .align-left {
   padding: 1rem;
   text-align: center !important;
+  margin-top: -50px;
 }
 
 .Depoimentos .align-right {
@@ -128,11 +129,15 @@
 .Depoimentos .text-shadow-left {
   position: relative;
   right: 5px;
+  margin-top: -50px;
+  align-self: left;
 }
 
 .Depoimentos .text-shadow-right {
   position: relative;
   left: -5px ;
+  margin-top: -50px;
+  align-self: left;
 }
 
 .Depoimentos .view-texto {
@@ -140,6 +145,14 @@
   flex-direction: column;
   align-self: center;
 
+}
+
+.Depoimentos .view-image {
+  margin-top: 50px;
+}
+
+.texto-adjust {
+  margin-top: -130px !important;
 }
 
 

@@ -33,3 +33,35 @@ a:link, a:visited {
     }
 
 }
+
+@media screen and (max-width: 354px) {
+  .item-footer {
+    font-size: small !important;
+  }
+}
+
+@media screen and (max-width: 308px) {
+  .item-footer {
+    font-size: x-small !important;
+  }
+}
+
+@media screen and (max-width: 262px) {
+  .item-footer {
+    font-size: xx-small !important;
+  }
+}
+
+
+@media screen and (max-width: 247px) {
+  .item-footer {
+    font-size: 8px !important;
+  }
+}
+
+
+@media screen and (max-width: 232px) {
+  .item-footer {
+    font-size: 6px !important;
+  }
+}

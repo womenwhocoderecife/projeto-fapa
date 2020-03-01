@@ -53,7 +53,7 @@ function Depoimentos() {
             <div className="col-md-4 view-image">
               <img className="image-adjust shadow-right-yellow" src={depoente4} alt="quarto depoente" />
             </div>
-            <div className="col-md-6 view-texto align-right text-shadow-right">
+            <div className="col-md-6 view-texto align-right text-shadow-right texto-adjust">
               <h5 className="titulo"> Geruza Leite </h5>
               <p className="texto">
                 "A Fapa pra mim é toda possibilidade de exercer minha melhor versão com alegria."
