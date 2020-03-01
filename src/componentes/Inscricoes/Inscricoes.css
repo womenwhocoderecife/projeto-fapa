@@ -1,79 +1,80 @@
-.Inscricoes {
-  height: 130vh;
+.Inscricoes .container-fluid {
+  background-color: white;
+  padding: 4rem 0 !important;
 }
+
 .Inscricoes .square {
-  width: 35rem;
+  width: 15rem;
   max-width: 90%;
   height: 16rem;
+  position: absolute;
   margin-top: 4rem;
 }
 
-.container-inscrições {
-  display: flex;
-  justify-content: space-between;
-  background-color: white;
-  padding: 4rem 0 !important;
-
+.Inscricoes .inscricoes-view {
+  padding-top: 2.5rem;
+  justify-content: center;
+  align-items: center;
+  
 }
 
-.shadow-right-orange {
-  box-shadow: 25px 95px #FF822E;
-}
-
-.shadow-right-green {
-  box-shadow: 25px 95px #A9D825;
-}
-
-
-.shadow-right-yellow {
-  box-shadow: 25px 95px #FFDA00;;
-}
 
 .Inscricoes .image {
-  max-width: 16rem;
-  height: 16rem;
+ 
+  max-height: 16rem;
   object-fit: cover;
   position: relative;
   z-index: 2;
   background-color: black;
 }
 
+.Inscricoes .margin-left {
+  margin-left: 2rem;
+}
+.Inscricoes .view {
+  margin: 0.5rem 0.25rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
 .Inscricoes .texto {
   display: flex;
-  font-family: "Nunito";
   flex-direction: column;
-  font-weight: 600;
-  font-size: 24px;
+
   align-self: center;
   z-index: 2;
   position: relative;
-  height: 170px;
 }
+
 
 .Inscricoes .titulo {
-  font-size: 2.3rem;
+  font-size: 2rem;
   color: #1b1b1b;
   font-family: "Nunito";
-  font-weight: 200;
-  width: 100%;
+  font-weight: 400;
+  width: 13rem;
   z-index: 2;
-  position: relative;
-  z-index: 2;
+  position: inherit;
   margin: 1rem;
-  text-align: center;
+  text-align: right;
 }
 
+.Inscricoes .reverse {
+  flex-direction: row-reverse;
+}
+
+.Inscricoes .align-right {
+  text-align: right !important;
+}
 
 .Inscricoes .voluntario-button {
   margin: 0 1rem;
   height: 4rem;
-  color: #FF822E !important;
+  color: #ff822e !important;
   font-family: "Nunito", sans-serif !important;
   border-radius: 2rem !important;
   border: 1px solid #ff822e !important;
   text-align: center;
-  font-weight: bold;
-  font-size: 16px;
 }
 
 .Inscricoes .voluntario-button:hover {
@@ -81,19 +82,15 @@
   color: white !important;
 }
 
-@media screen and (max-width: 1024px) {
-  .Inscricoes {
-    height: 420vh;
-  }
-  .container-inscrições {
-    flex-direction: column;
-    height: 300vh;
-    justify-content: space-evenly;
-  }
+.shadow-right-orange {
+  box-shadow: 24px 95px #FF822E;
+}
 
-  .Inscricoes .square {
-      max-height: 20%;
-      height: 9rem;
-      margin-top: 30rem;
-  }
+.shadow-right-green {
+  box-shadow: 24px 95px #A9D825;
+}
+
+
+.shadow-right-yellow {
+  box-shadow: 24px 95px #FFDA00;;
 }
