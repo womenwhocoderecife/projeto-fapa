@@ -1,18 +1,19 @@
 import React from "react";
 import "./NossaHistoria.css";
-import NavBar from "../../componentes/NavBar";
-import Footer from "../../componentes/Footer/Footer";
+
 import eduardo from "../../assets/nossa história.jpeg"
 
 function NossaHistoria() {
   return (
     <div className="NossaHistoria">
-      <NavBar class="w-100"></NavBar>
-      <div className="row nav-bar-space"></div>
       <div className="container-fluid ">
         <div className="container">
           <div className="row">
-            <h3 className="titulo">Nossa História</h3>
+          
+
+          <h3 className="titulo">Nossa História</h3>
+          
+            
           </div>
           <div className="row">
             <div className="col-md-5 p-0">
@@ -37,7 +38,7 @@ function NossaHistoria() {
           </div>
         </div>
       </div>
-      <Footer></Footer>
+   
     </div>
   );
 }

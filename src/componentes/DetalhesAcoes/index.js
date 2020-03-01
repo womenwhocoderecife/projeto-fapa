@@ -37,9 +37,9 @@ function DetalhesAcoes() {
   });
 
   return (
-    <>
+    
       <div className="row d-flex p-0 m-0"> {cards} </div>
-    </>
+    
   );
 }
 

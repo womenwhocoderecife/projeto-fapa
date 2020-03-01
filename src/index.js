@@ -2,7 +2,7 @@ import React from "react";
 import ReactDOM from "react-dom";
 import "./index.css";
 import Home from "./pages/Home/Home";
-import NossaHistoria from "./pages/NossaHistoria/NossaHistoria";
+import SobreNos from "./pages/SobreNos/SobreNos";
 import NossasAcoes from "./pages/NossasAcoes/NossasAcoes";
 //import EmConstrucao from "./pages/EmConstrucao/EmConstrucao";
 import * as serviceWorker from "./serviceWorker";
@@ -15,7 +15,7 @@ ReactDOM.render(
   <BrowserRouter>
     <Switch>
       <Route path="/" exact={true} component={Home} />
-      <Route path="/sobre-nos" component={NossaHistoria} />
+      <Route path="/sobre-nos" component={SobreNos} />
       <Route path="/nossas-acoes" component={NossasAcoes} />
       <Route path="/junte-se" component={JunteSe} />
     </Switch>
