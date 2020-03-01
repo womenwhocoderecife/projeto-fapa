@@ -8,7 +8,7 @@ function Acompanhe() {
         <div className="container">
           <div className="row">
             <div className="col-md-7">
-              <h3 className="titulo">
+              <h3 className="titulo-acompanhe">
                 Acompanhe o calendário de nossas ações pelas redes sociais
               </h3>
             </div>

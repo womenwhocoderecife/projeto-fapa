@@ -14,14 +14,16 @@
   display: flex;
   align-items: center;
 }
-.Acompanhe .titulo {
-  font-size: 3.5rem;
-  color: #1b1b1b;
-  font-family: "Nunito";
-  font-style: normal;
+.Acompanhe .titulo-acompanhe {
   
-  text-align: start;
-}
+    font-family: "Nunito", sans-serif;
+    font-weight: 700;
+    color: #1b1b1b;
+    font-size: 3.5rem;
+    margin: 6.125rem 0 4rem;
+    
+    
+  }
 
 .Acompanhe .col-view {
   display: flex;
@@ -38,7 +40,7 @@
     height: 45vh;
     
   }
-  .Acompanhe .titulo {
+  .Acompanhe .titulo-acompanhe {
     
     font-size: 2.5rem;
   }
