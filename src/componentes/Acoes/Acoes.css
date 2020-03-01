@@ -1,3 +1,7 @@
+
+.calendario{
+  width: 100%;
+}
 .square {
   width: 9.25rem;
   margin: 0.5rem;
@@ -19,10 +23,24 @@
   direction: row-reverse;
   justify-content: center;
   margin-bottom: 2rem;
+  flex-wrap: wrap;
 }
 .image-title {
   font-size: 1rem;
   color: #1b1b1b;
   font-family: "Nunito";
   font-style: normal;
+}
+
+
+@media screen and (max-width: 500px) {
+
+  .calendario {
+ 
+
+    justify-content: space-between;
+  }
+  .cards-view{
+    justify-content: space-between;
+  }
 }

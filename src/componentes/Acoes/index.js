@@ -25,7 +25,7 @@ function Acoes() {
     }
   });
   return (
-    <div>
+    <div className = "calendario">
       <div className="cards-view"> {cards_line1} </div>
       <div className="cards-view"> {cards_line2} </div>
     </div>
