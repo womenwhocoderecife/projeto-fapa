@@ -11,15 +11,15 @@ import Button from "react-bootstrap/Button";
 function AcoesPessoas() {
   return (
     <div className="container-alcance">
-      <div class="container-numero">
-        <div class="row">
-          <div class="acoes">
-            <h2 class="numero">+40</h2>
-            <p class="sub-num">ações realizadas</p>
+      <div className="container-numero">
+        <div className="row">
+          <div className="acoes">
+            <h2 className="numero">+40</h2>
+            <p className="sub-num">ações realizadas</p>
           </div>
-          <div class="acoes">
-            <h2 class="numero">+10k</h2>
-            <p class="sub-num">pessoas impactadas diretamente</p>
+          <div className="acoes">
+            <h2 className="numero">+10k</h2>
+            <p className="sub-num">pessoas impactadas diretamente</p>
           </div>
         </div>
       </div>

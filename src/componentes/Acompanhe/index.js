@@ -4,11 +4,11 @@ import "./Acompanhe.css";
 function Acompanhe() {
   return (
     <div className="Acompanhe">
-      <div className="container-fluid p-0 ">
+      <div className="container-fluid">
         <div className="container">
           <div className="row">
-            <div className="col-md-7 col-view">
-              <h3 className="titulo">
+            <div className="col-md-7">
+              <h3 className="titulo-acompanhe">
                 Acompanhe o calendário de nossas ações pelas redes sociais
               </h3>
             </div>
