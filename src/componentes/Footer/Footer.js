@@ -14,7 +14,6 @@ function Footer() {
               <div className = "col-md-4">
                   <a className="item-footer" href="mailto:facaalgoporalguem@gmail.com?subject=contatopelosite" target="_top"><FaMailBulk className = "icon" /> facaalgoporalguem@gmail.com</a>
                   <br></br>
-                  <span className="item-footer"><FaAddressCard className = "icon" /> CNPJ: 472891902948</span>
               </div>
              </div>
         </div>

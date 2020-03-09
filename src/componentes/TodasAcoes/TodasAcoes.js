@@ -9,21 +9,21 @@ function TodasAcoes() {
       <div className="container-fluid ">
         <div className="container">
           <div className="row">
-          
+
 
           <h3 className="titulo">O ano inteiro semeando amor</h3>
-          
-            
+
+
           </div>
-          
+
         </div>
-     
-    
-        
+
+
+
       </div>
 
       <div className="container-fluid background-yellow">
-      <h4 className="subtitulo">Veja nosso calendário fixo de ações:</h4>
+      <h4 className="subtitulo">Veja nosso calendário de ações:</h4>
       <Acoes/>
       </div>
       <div className="container-fluid">
@@ -34,7 +34,7 @@ function TodasAcoes() {
       </div>
       <Acompanhe/>
 
-   
+
     </div>
   );
 }

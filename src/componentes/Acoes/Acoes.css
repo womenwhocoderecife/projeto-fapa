@@ -30,13 +30,23 @@
   color: #1b1b1b;
   font-family: "Nunito";
   font-style: normal;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.image-agenda {
+  font-size: 1rem;
+  color: #1b1b1b;
+  font-family: "Nunito";
+  font-style: oblique;
 }
 
 
 @media screen and (max-width: 500px) {
 
   .calendario {
- 
+
 
     justify-content: space-between;
   }

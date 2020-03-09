@@ -12,6 +12,7 @@ function Acoes() {
         <div className="square" key={"cards-acoes" + item.id}>
           <img className="image-square" src={image} alt="acoes"></img>
           <span className="image-title"> {item.titulo} </span>
+          <span className="image-agenda"> {item.agenda} </span>
         </div>
       );
     }
@@ -20,6 +21,7 @@ function Acoes() {
         <div className="square" key={"cards-acoes" + item.id}>
           <img className="image-square" src={image} alt="acoes"></img>
           <span className="image-title"> {item.titulo} </span>
+          <span className="image-agenda"> {item.agenda} </span>
         </div>
       );
     }

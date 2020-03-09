@@ -2,10 +2,13 @@ import React from "react";
 import "./AcoesPessoas.css";
 import "bootstrap/dist/css/bootstrap.min.css";
 import Carousel from "react-bootstrap/Carousel";
-import faparoda from "../../assets/fapa-roda.jpg";
-import idoso from "../../assets/fapa-idoso.jpg";
-import lindu from "../../assets/fapa-lindu.jpg";
-import abraco from "../../assets/abraco.jpg"
+import um from "../../assets/1.jpg";
+import dois from "../../assets/2.jpg";
+import tres from "../../assets/3.jpg"
+import cinco from "../../assets/5.jpg"
+import seis from "../../assets/6.jpg"
+import sete from "../../assets/7.jpg"
+import oito from "../../assets/8.jpg"
 import Button from "react-bootstrap/Button";
 
 function AcoesPessoas() {
@@ -14,11 +17,11 @@ function AcoesPessoas() {
       <div className="container-numero">
         <div className="row">
           <div className="acoes">
-            <h2 className="numero">+40</h2>
+            <h2 className="numero">+60</h2>
             <p className="sub-num">ações realizadas</p>
           </div>
           <div className="acoes">
-            <h2 className="numero">+10k</h2>
+            <h2 className="numero">+20k</h2>
             <p className="sub-num">pessoas impactadas diretamente</p>
           </div>
         </div>
@@ -26,16 +29,25 @@ function AcoesPessoas() {
 
       <Carousel>
         <Carousel.Item>
-          <img className="d-block w-100 h-100" src={abraco} alt="First slide"/>
+          <img className="d-block w-100 h-100" src={um} alt="First slide"/>
         </Carousel.Item>
         <Carousel.Item>
-          <img className="d-block w-100 h-100" src={idoso} alt="Second slide"/>
+          <img className="d-block w-100 h-100" src={dois} alt="Second slide"/>
         </Carousel.Item>
         <Carousel.Item>
-          <img className="d-block w-100 h-100" src={lindu} alt="Third slide"/>
+          <img className="d-block w-100 h-100" src={tres} alt="Third slide"/>
         </Carousel.Item>
         <Carousel.Item>
-          <img className="d-block w-100 h-100" src={faparoda} alt="Fourth slide"/>
+          <img className="d-block w-100 h-100" src={cinco} alt="Fifth slide"/>
+        </Carousel.Item>
+        <Carousel.Item>
+          <img className="d-block w-100 h-100" src={seis} alt="Sixth slide"/>
+        </Carousel.Item>
+        <Carousel.Item>
+          <img className="d-block w-100 h-100" src={sete} alt="Seventh slide"/>
+        </Carousel.Item>
+        <Carousel.Item>
+          <img className="d-block w-100 h-100" src={oito} alt="Eighth slide"/>
         </Carousel.Item>
       </Carousel>
       <div className="row d-flex justify-content-center">

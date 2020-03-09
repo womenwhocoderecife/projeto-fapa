@@ -16,19 +16,12 @@
   margin-bottom: 98px;
 }
 
-
-
-
-
-
-
-
 .TodasAcoes .titulo {
   font-family: "Nunito", sans-serif;
   font-weight: 700;
   color: #1b1b1b;
   font-size: 3.5rem;
-  margin: 4.125rem 0 4rem;
+  margin: 4.125rem 0 -3rem 1rem;
   width: 100% !important;
   text-align: center;
 }
@@ -98,4 +91,3 @@
     font-size: 3.5625rem;
   }
 }
-

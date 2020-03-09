@@ -29,3 +29,8 @@
 .ver-detalhes-button:hover {
   font-weight: bold;
 }
+
+.image_length {
+  width: 390px;
+  height: 250px;
+}

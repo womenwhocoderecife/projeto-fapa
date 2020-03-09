@@ -1,13 +1,13 @@
 [
-  { "id": 1, "titulo": "Abraço na Alma", "icon": "hug.svg" },
-  { "id": 2, "titulo": "Carnaval das Antigas", "icon": "mask.svg" },
-  { "id": 3, "titulo": "Curso de Voluntários", "icon": "charity.svg" },
-  { "id": 4, "titulo": "Ressureição sobre rodas", "icon": "acessibility.svg" },
-  { "id": 5, "titulo": "Dia das Mães", "icon": "mother.svg" },
-  { "id": 6, "titulo": "Doação de Sangue - Sangue do meu sangue", "icon": "drop.svg" },
-  { "id": 7, "titulo": "Setembro Amarelo", "icon": "mind.svg" },
-  { "id": 8,  "titulo": "Dia das Crianças", "icon": "rocking-horse.svg"},
-  { "id": 9, "titulo": "Natal do Bem", "icon": "natal.svg"},
-  { "id": 10, "titulo": "Café Coletivo", "icon": "breakfast.svg" },
-  { "id": 11, "titulo": "Atuação na Comunidade Beira do Rio", "icon": "comunity.svg"}
+  { "id": 1, "agenda": "(Janeiro)", "titulo": "Abraço na Alma", "icon": "hug.svg" },
+  { "id": 2, "agenda": "(Fevereiro)", "titulo": "Carnaval das Antigas", "icon": "mask.svg" },
+  { "id": 3, "agenda": "(Ao longo do ano)", "titulo": "Curso de Voluntários", "icon": "charity.svg" },
+  { "id": 4, "agenda": "(Abril)", "titulo": "Ressureição sobre rodas", "icon": "acessibility.svg" },
+  { "id": 5, "agenda": "(Maio)", "titulo": "Dia das Mães", "icon": "mother.svg" },
+  { "id": 6, "agenda": "(Agosto)", "titulo": "Sangue do meu sangue", "icon": "drop.svg" },
+  { "id": 7, "agenda": "", "titulo": "Setembro Amarelo", "icon": "mind.svg" },
+  { "id": 8,  "agenda": "(Outubro)", "titulo": "Dia das Crianças", "icon": "rocking-horse.svg"},
+  { "id": 9, "agenda": "(Dezembro)", "titulo": "Natal do Bem", "icon": "natal.svg"},
+  { "id": 10, "agenda": "(1º domingo do mês)", "titulo": "Café Coletivo", "icon": "breakfast.svg" },
+  { "id": 11, "agenda": "(Fixo)", "titulo": "Atuação na Comunidade Beira do Rio", "icon": "comunity.svg"}
 ]
