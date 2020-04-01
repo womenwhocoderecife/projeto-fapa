@@ -9,8 +9,10 @@ import Footer from "../../componentes/Footer/Footer";
 function JunteSe() {
   return (
     <div className="Junte-se">
-      <NavBar></NavBar>
-      <Inscricoes></Inscricoes>
+      <div>
+        <NavBar isHome={false}></NavBar>
+        <Inscricoes></Inscricoes>
+      </div>
       <Footer></Footer>
     </div>
   );

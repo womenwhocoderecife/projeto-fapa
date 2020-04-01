@@ -15,7 +15,6 @@ function AcoesPessoas() {
   return (
     <div className="container-alcance">
       <div className="container-numero">
-        <div className="row">
           <div className="acoes">
             <h2 className="numero">+60</h2>
             <p className="sub-num">ações realizadas</p>
@@ -24,7 +23,6 @@ function AcoesPessoas() {
             <h2 className="numero">+20k</h2>
             <p className="sub-num">pessoas impactadas diretamente</p>
           </div>
-        </div>
       </div>
 
       <Carousel>
@@ -50,15 +48,9 @@ function AcoesPessoas() {
           <img className="d-block w-100 h-100" src={oito} alt="Eighth slide"/>
         </Carousel.Item>
       </Carousel>
-      <div className="row d-flex justify-content-center">
-        <Button
-          variant="outline-light"
-          className="nossas-acoes-button"
-          href="/nossas-acoes"
-        >
-          Conheça nossas ações
-        </Button>
-      </div>
+      <Button variant="outline-light" className="nossas-acoes-button" href="/nossas-acoes">
+        Conheça nossas ações
+      </Button>
     </div>
   );
 }

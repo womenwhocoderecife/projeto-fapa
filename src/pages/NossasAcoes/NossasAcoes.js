@@ -9,11 +9,12 @@ import Footer from "../../componentes/Footer/Footer";
 function NossasAcoes() {
   return (
     <div className="NossasAcoes">
-
-      <NavBar></NavBar>
-      <TodasAcoes></TodasAcoes>
+      <div>
+        <NavBar isHome={false}></NavBar>
+        <TodasAcoes></TodasAcoes>
+      </div>
       <Footer></Footer>
-      
+
     </div>
   );
 }

@@ -44,10 +44,7 @@
 
 
 @media screen and (max-width: 500px) {
-
   .calendario {
-
-
     justify-content: space-between;
   }
   .cards-view{

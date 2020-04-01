@@ -4,12 +4,15 @@
   background-color: rgba(169, 216, 37, 0.1);
   width: 100%;
   padding: 1rem 0;
+  display: flex;
+  flex-direction: column;
 }
 .container-numero {
   width: 100%;
   display: flex;
   justify-content: space-around;
   flex-direction: row;
+  margin: 62px 0px;
 }
 .div-numero {
   margin: 50px;
@@ -27,18 +30,15 @@ h2 {
   color: #1b1b1b;
   font-size: 24px;
   font-family: "Nunito", sans-serif;
+  text-align: center;
 }
-.acoes {
-  padding: 62px 150px 62px;
-}
+
 .carousel {
   margin: 0% 10% 5%;
 }
 
 .d-block {
   align-items: center;
-  /*height: 633px;
-  width: 1139px;*/
 }
 
 .container-alcance .nossas-acoes-button {
@@ -50,6 +50,7 @@ h2 {
   text-align: center;
   display: flex;
   align-items: center;
+  align-self: center;
 }
 
 .nossas-acoes-button:hover {
@@ -72,9 +73,14 @@ h2 {
   .sub-num {
    text-align: center;
   }
-  
+
   .nossas-acoes-button {
     margin-top: 40px;
   }
-    
+
+  .container-numero {
+    flex-direction: column;
+    margin: auto;
+  }
+
 }

@@ -55,7 +55,6 @@
   box-shadow: -55px 55px #FF822E;
 }
 .Depoimentos .view-image {
-  min-width: 400px;
   height: 400px;
   display: flex;
   justify-content: center;

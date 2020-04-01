@@ -31,6 +31,8 @@
   z-index: 2;
   color: white;
   text-shadow: 1px 1px black;
+  display: flex;
+  width: max-content;
 }
 
 .ong-sem-fins-lucrati {
@@ -44,6 +46,8 @@
   z-index: 2;
   color: white;
   text-shadow: 1px 1px black;
+  display: flex;
+  width: max-content;
 }
 
 .video-fapa {
@@ -108,6 +112,22 @@
     .Footer span {
       margin-left: 0rem;
     }
+}
 
+@media screen and (max-width: 600px) {
+    .faca-algo-por-alguem {
+      font-size: 45px
+    }
+}
 
+@media screen and (max-width: 500px) {
+    .faca-algo-por-alguem {
+      font-size: 35px
+    }
+}
+
+@media screen and (max-width: 400px) {
+    .faca-algo-por-alguem {
+      font-size: 30px
+    }
 }

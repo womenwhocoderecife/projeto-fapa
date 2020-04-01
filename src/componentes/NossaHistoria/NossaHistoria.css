@@ -14,7 +14,13 @@
   margin-top: 0;
   padding: 0 1.875rem;
   margin-bottom: 98px;
+  display: flex;
 }
+
+.NossaHistoria .container-text {
+   width: 50%;
+}
+
 .NossaHistoria .nav-bar-space {
   height: 6rem;
   border: solid 1px black;
@@ -47,7 +53,6 @@
   object-fit: cover;
   position: relative;
   margin-left: 11.25rem;
-  margin-top: -10rem;
   z-index: 2;
   background-color: black;
 }
@@ -55,11 +60,13 @@
 .NossaHistoria .view-image {
   padding: 1rem 0 1rem 1.875rem;
   margin-bottom: 2rem;
+  display: flex;
+  align-items: center;
 }
 
 @media screen and (max-width: 771px) {
   .NossaHistoria .image {
-    height: 25rem !important;
+    height: 30rem !important;
     margin-left: 3.25rem !important;
   }
   .NossaHistoria .square-green {
@@ -69,5 +76,14 @@
   .NossaHistoria .titulo {
     margin: 4.125rem 0 2rem;
     font-size: 3.5625rem;
+  }
+}
+
+@media screen and (max-width: 990px) {
+  .NossaHistoria .container {
+    flex-direction: column;
+  }
+  .NossaHistoria .container-text {
+     width: 100%;
   }
 }

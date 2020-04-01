@@ -34,3 +34,10 @@
   width: 390px;
   height: 250px;
 }
+
+@media screen and (max-width: 1091px) {
+  .image_length {
+    width: 100%;
+    height: 100%;
+  }
+}

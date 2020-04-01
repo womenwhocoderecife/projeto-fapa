@@ -9,8 +9,10 @@ import Footer from "../../componentes/Footer/Footer";
 function SobreNos() {
   return (
     <div className="SobreNos">
-      <NavBar></NavBar>
-      <NossaHistoria></NossaHistoria>
+      <div>
+        <NavBar isHome={false}></NavBar>
+        <NossaHistoria></NossaHistoria>
+      </div>
       <Footer></Footer>
     </div>
   );
