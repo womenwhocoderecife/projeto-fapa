@@ -27,7 +27,7 @@ function Header() {
         <Modal.Header closeButton>
         </Modal.Header>
         <Modal.Body>
-            <iframe width="1060" height="500" src="https://www.youtube.com/embed/wFvku4Dyp9g"></iframe>
+            <iframe className="video" width="1060" height="500" src="https://www.youtube.com/embed/wFvku4Dyp9g"></iframe>
         </Modal.Body>
       </Modal>
     </div>

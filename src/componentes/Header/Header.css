@@ -93,6 +93,10 @@
   cursor: pointer;
 }
 
+.video {
+  width: 100%;
+}
+
 @keyframes arrowloop {
   0% {
     bottom: 240px;
