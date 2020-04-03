@@ -112,13 +112,13 @@
   text-align: right !important;
 }
 
-@media only screen and (max-device-width: 900px) {
+@media only screen and (max-width: 900px) {
 
   .Depoimentos .align-left {
   padding: 1rem;
   text-align: center !important;
   margin-top: -50px;
-}
+  }
 
 .Depoimentos .align-right {
   padding: 1rem ;
@@ -176,4 +176,4 @@
 .Depoimentos .shadow-left-orange {
   box-shadow: -25px 55px #FF822E;
 }
-  }
+}

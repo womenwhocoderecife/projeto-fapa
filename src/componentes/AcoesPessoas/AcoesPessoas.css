@@ -69,7 +69,7 @@ h2 {
   background-color: #ff822e !important;
 }
 
-@media only screen and (max-device-width: 900px) {
+@media only screen and (max-width: 900px) {
   .sub-num {
    text-align: center;
   }
