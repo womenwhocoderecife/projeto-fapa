@@ -3,14 +3,8 @@ import React from "react";
 import "./DetalhesAcoes.css";
 import list from "../../datas/nossas_acoes.json";
 import Card from "react-bootstrap/Card";
-import Button from "react-bootstrap/Button";
 
 function DetalhesAcoes() {
-  function handleClick(e) {
-    e.preventDefault();
-    console.log("O link foi clicado.");
-  }
-
   const cards = [];
 
   list.map(item => {

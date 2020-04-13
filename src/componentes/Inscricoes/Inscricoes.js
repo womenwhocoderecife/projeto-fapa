@@ -1,9 +1,5 @@
 import React from "react";
 import "./Inscricoes.css";
-import voluntario1 from "../../assets/Edilma.jpg";
-import voluntario2 from "../../assets/Luciene.jpg";
-import voluntario4 from "../../assets/Poliana Afonso.jpg";
-import voluntario3 from "../../assets/Felipe.jpg";
 import Button from "react-bootstrap/Button";
 
 function Inscricoes() {
