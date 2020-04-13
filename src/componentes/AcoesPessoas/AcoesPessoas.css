@@ -39,6 +39,8 @@ h2 {
 
 .d-block {
   align-items: center;
+  height: 435px !important;
+  width: 767px !important;
 }
 
 .container-alcance .nossas-acoes-button {

@@ -27,25 +27,25 @@ function AcoesPessoas() {
 
       <Carousel>
         <Carousel.Item>
-          <img className="d-block w-100 h-100" src={um} alt="First slide"/>
+          <img className="d-block" src={um} alt="First slide"/>
         </Carousel.Item>
         <Carousel.Item>
-          <img className="d-block w-100 h-100" src={dois} alt="Second slide"/>
+          <img className="d-block" src={dois} alt="Second slide"/>
         </Carousel.Item>
         <Carousel.Item>
-          <img className="d-block w-100 h-100" src={tres} alt="Third slide"/>
+          <img className="d-block" src={tres} alt="Third slide"/>
         </Carousel.Item>
         <Carousel.Item>
-          <img className="d-block w-100 h-100" src={cinco} alt="Fifth slide"/>
+          <img className="d-block" src={cinco} alt="Fifth slide"/>
         </Carousel.Item>
         <Carousel.Item>
-          <img className="d-block w-100 h-100" src={seis} alt="Sixth slide"/>
+          <img className="d-block" src={seis} alt="Sixth slide"/>
         </Carousel.Item>
         <Carousel.Item>
-          <img className="d-block w-100 h-100" src={sete} alt="Seventh slide"/>
+          <img className="d-block" src={sete} alt="Seventh slide"/>
         </Carousel.Item>
         <Carousel.Item>
-          <img className="d-block w-100 h-100" src={oito} alt="Eighth slide"/>
+          <img className="d-block" src={oito} alt="Eighth slide"/>
         </Carousel.Item>
       </Carousel>
       <Button variant="outline-light" className="nossas-acoes-button" href="/nossas-acoes">
