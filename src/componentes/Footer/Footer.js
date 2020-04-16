@@ -1,6 +1,6 @@
 import React from 'react';
 import './Footer.css';
-import { FaInstagram, FaPhone,FaMailBulk,FaAddressCard } from "react-icons/fa";
+import { FaInstagram, FaPhone,FaMailBulk } from "react-icons/fa";
 function Footer() {
   return (
       <div className="container-footer">

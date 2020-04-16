@@ -5,6 +5,7 @@
   width: 100%;
   padding: 1rem 0;
   display: flex;
+  align-items: center;
   flex-direction: column;
 }
 .container-numero {
@@ -34,13 +35,13 @@ h2 {
 }
 
 .carousel {
-  margin: 0% 10% 5%;
+  margin: 0% 50% 5%;
 }
 
 .d-block {
   align-items: center;
-  height: 435px !important;
-  width: 767px !important;
+  height: 421px !important;
+  width: 700px !important;
 }
 
 .container-alcance .nossas-acoes-button {
