@@ -90,4 +90,8 @@
     margin: 4.125rem 0 2rem;
     font-size: 3.5625rem;
   }
+
+  .TodasAcoes .container {
+    margin-bottom: 0px;
+ }
 }
