@@ -87,3 +87,19 @@ h2 {
   }
 
 }
+
+@media only screen and (max-width: 700px) {
+  .d-block {
+    height: 255px !important;
+    width: 49vh !important;
+  }
+
+}
+
+
+@media only screen and (max-width: 480px) {
+  .d-block {
+    height: 220px !important;
+    width: 40vh !important;
+  }
+}

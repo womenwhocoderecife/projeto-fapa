@@ -135,3 +135,28 @@
       font-size: 30px
     }
 }
+
+
+@media screen and (max-width: 330px) {
+    .faca-algo-por-alguem {
+      font-size: 27px
+    }
+}
+
+
+@media screen and (max-width: 304px) {
+    .faca-algo-por-alguem {
+      font-size: 25px
+    }
+}
+
+
+@media screen and (max-width: 285px) {
+    .faca-algo-por-alguem {
+      font-size: 22px
+    }
+
+    .ong-sem-fins-lucrati {
+      font-size: 13px;
+    }
+}
