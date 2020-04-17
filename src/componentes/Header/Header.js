@@ -18,11 +18,13 @@ function Header() {
       <div className="video-fapa">
         <div className="video-fade"/>
         <img src={require('../../assets/gif.gif')} alt="Gif do vídeo Ressureição sobre rodas"/>
-        <ExpandMoreIcon className="arrow" onClick={scrollPage}></ExpandMoreIcon>
-        <PlayCircleOutlineIcon className="play" onClick={() => setVideoShow(true)}></PlayCircleOutlineIcon>
       </div>
-      <p className="faca-algo-por-alguem"> Faça Algo Por Alguém </p>
-      <p className="ong-sem-fins-lucrati"> ONG sem fins lucrativos </p>
+      <div className="title">
+        <PlayCircleOutlineIcon className="play" onClick={() => setVideoShow(true)}></PlayCircleOutlineIcon>
+        <p className="faca-algo-por-alguem"> Faça Algo Por Alguém </p>
+        <p className="ong-sem-fins-lucrati"> ONG sem fins lucrativos </p>
+        <ExpandMoreIcon className="arrow" onClick={scrollPage}></ExpandMoreIcon>
+      </div>
       <Modal size="xl" show={videoShow} onHide={() => setVideoShow(false)}>
         <Modal.Header closeButton>
         </Modal.Header>
