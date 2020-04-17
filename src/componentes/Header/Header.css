@@ -69,9 +69,9 @@
 
 .video-fapa img {
   width: 100%;
-  height: 735px;
-  position: relative;
-  bottom: 90px;
+  min-height: 738px !important;
+  position: relative !important;
+  bottom: 90px !important;
 }
 
 .arrow {
