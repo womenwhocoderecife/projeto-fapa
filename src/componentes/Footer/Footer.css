@@ -1,11 +1,10 @@
-.container-footer{
+.container-footer {
     padding: 2rem;
     margin-top: 1rem;
     display: flex;
     flex-direction: column;
     align-items: center;
     width: 100%;
-    min-height: 200px;
 }
 
 a:link, a:visited {
@@ -36,6 +35,9 @@ a:link, a:visited {
   .footer {
     flex-direction: column;
     align-items: center;
+  }
+  .container-footer {
+    min-height: 200px;
   }
 }
 
