@@ -13,6 +13,9 @@ function Depoimentos() {
     <div className="Depoimentos">
       <div className="container-fluid ">
         <div className="container">
+          <div className="container-depoimentos">
+             Alguns depoimentos dos nossos voluntários:
+          </div>
           <div className="row justify-content-center d-flex inscricoes-view">
             <div className="col-md-4 view-image">
               <img className="image shadow-left-yellow" src={depoente1} alt="primeiro depoente" />
